@@ -1,0 +1,97 @@
+
+> nextjs@0.1.0 dev
+> next dev -p 5000 -H 0.0.0.0
+
+[1G[0K   [1m[38;2;173;127;168m▲ Next.js 15.5.9[39m[22m
+   - Local:        http://localhost:5000
+   - Network:      http://0.0.0.0:5000
+
+ [32m[1m✓[22m[39m Starting...
+ [32m[1m✓[22m[39m Ready in 1468ms
+ [37m[1m○[22m[39m Compiling / ...
+ [32m[1m✓[22m[39m Compiled / in 5.3s (830 modules)
+ GET / [32m200[39m in 5833ms
+ [32m[1m✓[22m[39m Compiled in 359ms (345 modules)
+ [37m[1m○[22m[39m Compiling /products/[category]/[subcategory] ...
+ [32m[1m✓[22m[39m Compiled /products/[category]/[subcategory] in 2.5s (1550 modules)
+ GET /products/nanofibermembrane/cosmeticmembranes/ [32m200[39m in 3341ms
+ GET /products/nanofibermembrane/cosmeticmembranes/ [32m200[39m in 156ms
+ [33m[1m⚠[22m[39m Cross origin request detected from b66d2fc1-ad6d-47d4-8fc9-6aa1cd40455c-00-3atj2ndfsgn7i.picard.replit.dev to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ [37m[1m○[22m[39m Compiling /products/[category] ...
+ [32m[1m✓[22m[39m Compiled /products/[category] in 623ms (1548 modules)
+ GET /products/nanofibermembrane/ [32m200[39m in 1842ms
+ [32m[1m✓[22m[39m Compiled /products/[category]/[subcategory] in 146ms (856 modules)
+ GET /products/nanofibermembrane/cosmeticmembranes/ [32m200[39m in 266ms
+ GET /products/nanofibermembrane/cosmeticmembranes/ [32m200[39m in 514ms
+ [37m[1m○[22m[39m Compiling /catalogue ...
+ [32m[1m✓[22m[39m Compiled /catalogue in 555ms (1565 modules)
+ GET /catalogue/ [32m200[39m in 809ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /catalogue/ [32m200[39m in 71ms
+ GET /catalogue/ [32m200[39m in 74ms
+ GET /catalogue/ [32m200[39m in 74ms
+ GET / [32m200[39m in 198ms
+ GET / [32m200[39m in 202ms
+ [37m[1m○[22m[39m Compiling /about ...
+ [32m[1m✓[22m[39m Compiled /about in 1930ms (1636 modules)
+ GET /about/ [32m200[39m in 2521ms
+ [37m[1m○[22m[39m Compiling /contact ...
+ [32m[1m✓[22m[39m Compiled /contact in 3.1s (2663 modules)
+ GET /contact/ [32m200[39m in 5674ms
+ GET /products/nanofiberspinningtechnology/ [32m200[39m in 123ms
+ [31m[1m⨯[22m[39m Failed to generate static paths for /products/[category]:
+[Error: Page "/products/[category]/page" is missing param "/products/[category]" in "generateStaticParams()", which is required with "output: export" config.]
+ GET /products/nanofibermembrane/ [32m200[39m in 558ms
+ GET /products/nanofiberfunctionalproducts/ [32m200[39m in 109ms
+ GET /products/nanofibermembrane/airfiltrationmembrane/ [32m200[39m in 272ms
+ GET /products/nanofibermembrane/ionexchangemembrane/ [32m200[39m in 162ms
+ GET /products/nanofibermembrane/customizedmembrane/ [32m200[39m in 215ms
+ GET / [32m200[39m in 128ms
+ GET / [32m200[39m in 100ms
+ GET /products/nanofiberspinningtechnology/ [32m200[39m in 90ms
+ [31m[1m⨯[22m[39m Failed to generate static paths for /products/[category]:
+[Error: Page "/products/[category]/page" is missing param "/products/[category]" in "generateStaticParams()", which is required with "output: export" config.]
+ [31m[1m⨯[22m[39m [Error: Page "/products/[category]/page" is missing param "/products/[category]" in "generateStaticParams()", which is required with "output: export" config.] {
+  page: [32m'/products/nanofiberspinningtechnology'[39m
+}
+ [37m[1m○[22m[39m Compiling /_error ...
+ [32m[1m✓[22m[39m Compiled /_error in 2.7s (3002 modules)
+ GET /catalogue/ [32m200[39m in 970ms
+ GET /catalogue/ [32m200[39m in 993ms
+ GET / [32m200[39m in 988ms
+ GET /products/nanofiberspinningtechnology/ [31m500[39m in 3919ms
+ GET / [32m200[39m in 26ms
+ GET /catalogue/ [32m200[39m in 48ms
+ GET /catalogue/ [32m200[39m in 108ms
+ GET /products/electrospinning/electrospinning/ [32m200[39m in 368ms
+ [37m[1m○[22m[39m Compiling /media ...
+ [32m[1m✓[22m[39m Compiled /media in 716ms (2469 modules)
+ GET /media/ [32m200[39m in 1118ms
+ [32m[1m✓[22m[39m Compiled /publications in 414ms (2480 modules)
+ GET /publications/ [32m200[39m in 832ms
+ [32m[1m✓[22m[39m Compiled /about/advisory in 408ms (2489 modules)
+ GET /about/advisory/ [32m200[39m in 615ms
+ [32m[1m✓[22m[39m Compiled /about/certificates in 445ms (2500 modules)
+ GET /about/certificates/ [32m200[39m in 632ms
+ [37m[1m○[22m[39m Compiling /media/gallery ...
+ [32m[1m✓[22m[39m Compiled /media/gallery in 828ms (2525 modules)
+An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+ GET /media/gallery/ [32m200[39m in 1067ms
+ GET / [32m200[39m in 120ms
+ GET / [32m200[39m in 93ms
+ [32m[1m✓[22m[39m Compiled /about/board in 491ms (2542 modules)
+ GET /about/board/ [32m200[39m in 685ms
+ GET / [32m200[39m in 122ms
+ [31m[1m⨯[22m[39m [Error: Page "/products/[category]/page" is missing param "/products/[category]" in "generateStaticParams()", which is required with "output: export" config.] {
+  page: [32m'/products/nanofiberspinningtechnology'[39m
+}
+ GET /products/nanofiberspinningtechnology/ [31m500[39m in 793ms
+ [31m[1m⨯[22m[39m [Error: Page "/products/[category]/page" is missing param "/products/[category]" in "generateStaticParams()", which is required with "output: export" config.] {
+  page: [32m'/products/nanofiberspinningtechnology'[39m
+}
+ GET /products/nanofiberspinningtechnology/ [31m500[39m in 728ms
+ [37m[1m○[22m[39m Compiling /contact ...
+ [32m[1m✓[22m[39m Compiled /contact in 1592ms (1619 modules)
+ GET /contact/ [32m200[39m in 4392ms
+ GET /products/nanofibermembrane/cosmeticmembranes/ [32m200[39m in 203ms

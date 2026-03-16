@@ -1,0 +1,756 @@
+[1G[0K⠙[1G[0K
+> nextjs@0.1.0 dev
+> next dev -p 5000 -H 0.0.0.0
+
+[1G[0K⠙[1G[0K   [1m[38;2;173;127;168m▲ Next.js 15.5.9[39m[22m
+   - Local:        http://localhost:5000
+   - Network:      http://0.0.0.0:5000
+
+ [32m[1m✓[22m[39m Starting...
+ [32m[1m✓[22m[39m Ready in 3.9s
+ [37m[1m○[22m[39m Compiling / ...
+ [32m[1m✓[22m[39m Compiled / in 6.7s (830 modules)
+ GET / [32m200[39m in 7587ms
+ [32m[1m✓[22m[39m Compiled in 1291ms (345 modules)
+ [33m[1m⚠[22m[39m Cross origin request detected from b66d2fc1-ad6d-47d4-8fc9-6aa1cd40455c-00-3atj2ndfsgn7i.picard.replit.dev to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ [31m[1m⨯[22m[39m ./components/HeroSection.tsx
+Error:   [31m×[0m Return statement is not allowed here
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:71:1]
+ [2m 68[0m │     //     };
+ [2m 69[0m │     //   }, []);
+ [2m 70[0m │     
+ [2m 71[0m │ [35;1m╭[0m[35;1m─[0m[35;1m▶[0m   return (
+ [2m 72[0m │ [35;1m│[0m       <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
+ [2m 73[0m │ [35;1m│[0m         {/* Video Background */}
+ [2m 74[0m │ [35;1m│[0m         <video
+ [2m 75[0m │ [35;1m│[0m           autoPlay
+ [2m 76[0m │ [35;1m│[0m           muted
+ [2m 77[0m │ [35;1m│[0m           loop
+ [2m 78[0m │ [35;1m│[0m           playsInline
+ [2m 79[0m │ [35;1m│[0m           className="absolute inset-0 w-full h-full object-cover z-0"
+ [2m 80[0m │ [35;1m│[0m         >
+ [2m 81[0m │ [35;1m│[0m           <source src="/videos/landing video simple.mp4" type="video/mp4" />
+ [2m 82[0m │ [35;1m│[0m         </video>
+ [2m 83[0m │ [35;1m│[0m   
+ [2m 84[0m │ [35;1m│[0m         {/* Overlay with animated opacity */}
+ [2m 85[0m │ [35;1m│[0m         <div
+ [2m 86[0m │ [35;1m│[0m           className="absolute inset-0 bg-black z-10 transition-opacity duration-1000"
+ [2m 87[0m │ [35;1m│[0m           style={{ opacity: overlayOpacity }}
+ [2m 88[0m │ [35;1m│[0m         />
+ [2m 89[0m │ [35;1m│[0m   
+ [2m 90[0m │ [35;1m│[0m         {/* Flash popups scattered across the screen - appear and disappear before main content */}
+ [2m 91[0m │ [35;1m│[0m         <div className="absolute inset-0 z-[15] pointer-events-none">
+ [2m 92[0m │ [35;1m│[0m           {FLASH_POPUPS.map((popup, index) => (
+ [2m 93[0m │ [35;1m│[0m             <div
+ [2m 94[0m │ [35;1m│[0m               key={index}
+ [2m 95[0m │ [35;1m│[0m               className={`absolute transition-all duration-500 ease-out ${
+ [2m 96[0m │ [35;1m│[0m                 visiblePopups[index]
+ [2m 97[0m │ [35;1m│[0m                   ? "opacity-100 scale-100"
+ [2m 98[0m │ [35;1m│[0m                   : "opacity-0 scale-50"
+ [2m 99[0m │ [35;1m│[0m               }`}
+ [2m100[0m │ [35;1m│[0m               style={{ top: popup.top, left: popup.left }}
+ [2m101[0m │ [35;1m│[0m             >
+ [2m102[0m │ [35;1m│[0m               <span className="text-white text-lg md:text-2xl font-bold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] whitespace-nowrap">
+ [2m103[0m │ [35;1m│[0m                 {popup.text}
+ [2m104[0m │ [35;1m│[0m               </span>
+ [2m105[0m │ [35;1m│[0m             </div>
+ [2m106[0m │ [35;1m│[0m           ))}
+ [2m107[0m │ [35;1m│[0m         </div>
+ [2m108[0m │ [35;1m│[0m   
+ [2m109[0m │ [35;1m│[0m         <div
+ [2m110[0m │ [35;1m│[0m           className={`relative z-20 max-w-7xl mx-auto text-white transition-opacity duration-5000 ${
+ [2m111[0m │ [35;1m│[0m             showContent ? "opacity-100" : "opacity-0"
+ [2m112[0m │ [35;1m│[0m           }`}
+ [2m113[0m │ [35;1m│[0m         >
+ [2m114[0m │ [35;1m│[0m           <h1 className="text-4xl md:text-5xl font-bold mt-40">
+ [2m115[0m │ [35;1m│[0m             <span className="text-6xl md:text-7xl">Innovative</span>
+ [2m116[0m │ [35;1m│[0m             <br />
+ [2m117[0m │ [35;1m│[0m             <span className="text-red-500"> Fiber Technology</span>
+ [2m118[0m │ [35;1m│[0m           </h1>
+ [2m119[0m │ [35;1m│[0m           <p className="text-gray-100 max-w-xl mb-12 pt-4">
+ [2m120[0m │ [35;1m│[0m             Our innovative solutions offer engineered nanofiber technology for
+ [2m121[0m │ [35;1m│[0m             various applications, enabling advanced material development and
+ [2m122[0m │ [35;1m│[0m             groundbreaking research.
+ [2m123[0m │ [35;1m│[0m           </p>
+ [2m124[0m │ [35;1m│[0m         </div>
+ [2m125[0m │ [35;1m│[0m       </section>
+ [2m126[0m │ [35;1m╰[0m[35;1m─[0m[35;1m▶[0m   );
+ [2m127[0m │     }
+ [2m128[0m │     
+     ╰────
+  [31m×[0m Expression expected
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:127:1]
+ [2m124[0m │       </div>
+ [2m125[0m │     </section>
+ [2m126[0m │   );
+ [2m127[0m │ }
+     · [35;1m─[0m
+ [2m128[0m │ 
+ [2m129[0m │ 
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HeroSection.tsx
+./app/page.tsx
+ [31m[1m⨯[22m[39m ./components/HeroSection.tsx
+Error:   [31m×[0m Return statement is not allowed here
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:71:1]
+ [2m 68[0m │     //     };
+ [2m 69[0m │     //   }, []);
+ [2m 70[0m │     
+ [2m 71[0m │ [35;1m╭[0m[35;1m─[0m[35;1m▶[0m   return (
+ [2m 72[0m │ [35;1m│[0m       <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
+ [2m 73[0m │ [35;1m│[0m         {/* Video Background */}
+ [2m 74[0m │ [35;1m│[0m         <video
+ [2m 75[0m │ [35;1m│[0m           autoPlay
+ [2m 76[0m │ [35;1m│[0m           muted
+ [2m 77[0m │ [35;1m│[0m           loop
+ [2m 78[0m │ [35;1m│[0m           playsInline
+ [2m 79[0m │ [35;1m│[0m           className="absolute inset-0 w-full h-full object-cover z-0"
+ [2m 80[0m │ [35;1m│[0m         >
+ [2m 81[0m │ [35;1m│[0m           <source src="/videos/landing video simple.mp4" type="video/mp4" />
+ [2m 82[0m │ [35;1m│[0m         </video>
+ [2m 83[0m │ [35;1m│[0m   
+ [2m 84[0m │ [35;1m│[0m         {/* Overlay with animated opacity */}
+ [2m 85[0m │ [35;1m│[0m         {/* <div
+ [2m 86[0m │ [35;1m│[0m           className="absolute inset-0 bg-black z-10 transition-opacity duration-1000"
+ [2m 87[0m │ [35;1m│[0m           style={{ opacity: overlayOpacity }}
+ [2m 88[0m │ [35;1m│[0m         /> */}
+ [2m 89[0m │ [35;1m│[0m   
+ [2m 90[0m │ [35;1m│[0m         {/* Flash popups scattered across the screen - appear and disappear before main content */}
+ [2m 91[0m │ [35;1m│[0m         <div className="absolute inset-0 z-[15] pointer-events-none">
+ [2m 92[0m │ [35;1m│[0m           {FLASH_POPUPS.map((popup, index) => (
+ [2m 93[0m │ [35;1m│[0m             <div
+ [2m 94[0m │ [35;1m│[0m               key={index}
+ [2m 95[0m │ [35;1m│[0m               className={`absolute transition-all duration-500 ease-out ${
+ [2m 96[0m │ [35;1m│[0m                 visiblePopups[index]
+ [2m 97[0m │ [35;1m│[0m                   ? "opacity-100 scale-100"
+ [2m 98[0m │ [35;1m│[0m                   : "opacity-0 scale-50"
+ [2m 99[0m │ [35;1m│[0m               }`}
+ [2m100[0m │ [35;1m│[0m               style={{ top: popup.top, left: popup.left }}
+ [2m101[0m │ [35;1m│[0m             >
+ [2m102[0m │ [35;1m│[0m               <span className="text-white text-lg md:text-2xl font-bold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] whitespace-nowrap">
+ [2m103[0m │ [35;1m│[0m                 {popup.text}
+ [2m104[0m │ [35;1m│[0m               </span>
+ [2m105[0m │ [35;1m│[0m             </div>
+ [2m106[0m │ [35;1m│[0m           ))}
+ [2m107[0m │ [35;1m│[0m         </div>
+ [2m108[0m │ [35;1m│[0m   
+ [2m109[0m │ [35;1m│[0m         <div
+ [2m110[0m │ [35;1m│[0m           className={`relative z-20 max-w-7xl mx-auto text-white transition-opacity duration-5000 ${
+ [2m111[0m │ [35;1m│[0m             showContent ? "opacity-100" : "opacity-0"
+ [2m112[0m │ [35;1m│[0m           }`}
+ [2m113[0m │ [35;1m│[0m         >
+ [2m114[0m │ [35;1m│[0m           <h1 className="text-4xl md:text-5xl font-bold mt-40">
+ [2m115[0m │ [35;1m│[0m             <span className="text-6xl md:text-7xl">Innovative</span>
+ [2m116[0m │ [35;1m│[0m             <br />
+ [2m117[0m │ [35;1m│[0m             <span className="text-red-500"> Fiber Technology</span>
+ [2m118[0m │ [35;1m│[0m           </h1>
+ [2m119[0m │ [35;1m│[0m           <p className="text-gray-100 max-w-xl mb-12 pt-4">
+ [2m120[0m │ [35;1m│[0m             Our innovative solutions offer engineered nanofiber technology for
+ [2m121[0m │ [35;1m│[0m             various applications, enabling advanced material development and
+ [2m122[0m │ [35;1m│[0m             groundbreaking research.
+ [2m123[0m │ [35;1m│[0m           </p>
+ [2m124[0m │ [35;1m│[0m         </div>
+ [2m125[0m │ [35;1m│[0m       </section>
+ [2m126[0m │ [35;1m╰[0m[35;1m─[0m[35;1m▶[0m   );
+ [2m127[0m │     }
+ [2m128[0m │     
+     ╰────
+  [31m×[0m Expression expected
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:127:1]
+ [2m124[0m │       </div>
+ [2m125[0m │     </section>
+ [2m126[0m │   );
+ [2m127[0m │ }
+     · [35;1m─[0m
+ [2m128[0m │ 
+ [2m129[0m │ 
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HeroSection.tsx
+./app/page.tsx
+ [31m[1m⨯[22m[39m ./components/HeroSection.tsx
+Error:   [31m×[0m Return statement is not allowed here
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:71:1]
+ [2m 68[0m │     //     };
+ [2m 69[0m │     //   }, []);
+ [2m 70[0m │     
+ [2m 71[0m │ [35;1m╭[0m[35;1m─[0m[35;1m▶[0m   return (
+ [2m 72[0m │ [35;1m│[0m       <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
+ [2m 73[0m │ [35;1m│[0m         {/* Video Background */}
+ [2m 74[0m │ [35;1m│[0m         <video
+ [2m 75[0m │ [35;1m│[0m           autoPlay
+ [2m 76[0m │ [35;1m│[0m           muted
+ [2m 77[0m │ [35;1m│[0m           loop
+ [2m 78[0m │ [35;1m│[0m           playsInline
+ [2m 79[0m │ [35;1m│[0m           className="absolute inset-0 w-full h-full object-cover z-0"
+ [2m 80[0m │ [35;1m│[0m         >
+ [2m 81[0m │ [35;1m│[0m           <source src="/videos/landing video simple.mp4" type="video/mp4" />
+ [2m 82[0m │ [35;1m│[0m         </video>
+ [2m 83[0m │ [35;1m│[0m   
+ [2m 84[0m │ [35;1m│[0m         {/* Overlay with animated opacity */}
+ [2m 85[0m │ [35;1m│[0m         {/* <div
+ [2m 86[0m │ [35;1m│[0m           className="absolute inset-0 bg-black z-10 transition-opacity duration-1000"
+ [2m 87[0m │ [35;1m│[0m           style={{ opacity: overlayOpacity }}
+ [2m 88[0m │ [35;1m│[0m         /> */}
+ [2m 89[0m │ [35;1m│[0m   
+ [2m 90[0m │ [35;1m│[0m         {/* Flash popups scattered across the screen - appear and disappear before main content */}
+ [2m 91[0m │ [35;1m│[0m         {/* <div className="absolute inset-0 z-[15] pointer-events-none">
+ [2m 92[0m │ [35;1m│[0m           {FLASH_POPUPS.map((popup, index) => (
+ [2m 93[0m │ [35;1m│[0m             <div
+ [2m 94[0m │ [35;1m│[0m               key={index}
+ [2m 95[0m │ [35;1m│[0m               className={`absolute transition-all duration-500 ease-out ${
+ [2m 96[0m │ [35;1m│[0m                 visiblePopups[index]
+ [2m 97[0m │ [35;1m│[0m                   ? "opacity-100 scale-100"
+ [2m 98[0m │ [35;1m│[0m                   : "opacity-0 scale-50"
+ [2m 99[0m │ [35;1m│[0m               }`}
+ [2m100[0m │ [35;1m│[0m               style={{ top: popup.top, left: popup.left }}
+ [2m101[0m │ [35;1m│[0m             >
+ [2m102[0m │ [35;1m│[0m               <span className="text-white text-lg md:text-2xl font-bold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] whitespace-nowrap">
+ [2m103[0m │ [35;1m│[0m                 {popup.text}
+ [2m104[0m │ [35;1m│[0m               </span>
+ [2m105[0m │ [35;1m│[0m             </div>
+ [2m106[0m │ [35;1m│[0m           ))}
+ [2m107[0m │ [35;1m│[0m         </div> */}
+ [2m108[0m │ [35;1m│[0m   
+ [2m109[0m │ [35;1m│[0m         <div
+ [2m110[0m │ [35;1m│[0m           className={`relative z-20 max-w-7xl mx-auto text-white transition-opacity duration-5000 ${
+ [2m111[0m │ [35;1m│[0m             showContent ? "opacity-100" : "opacity-0"
+ [2m112[0m │ [35;1m│[0m           }`}
+ [2m113[0m │ [35;1m│[0m         >
+ [2m114[0m │ [35;1m│[0m           <h1 className="text-4xl md:text-5xl font-bold mt-40">
+ [2m115[0m │ [35;1m│[0m             <span className="text-6xl md:text-7xl">Innovative</span>
+ [2m116[0m │ [35;1m│[0m             <br />
+ [2m117[0m │ [35;1m│[0m             <span className="text-red-500"> Fiber Technology</span>
+ [2m118[0m │ [35;1m│[0m           </h1>
+ [2m119[0m │ [35;1m│[0m           <p className="text-gray-100 max-w-xl mb-12 pt-4">
+ [2m120[0m │ [35;1m│[0m             Our innovative solutions offer engineered nanofiber technology for
+ [2m121[0m │ [35;1m│[0m             various applications, enabling advanced material development and
+ [2m122[0m │ [35;1m│[0m             groundbreaking research.
+ [2m123[0m │ [35;1m│[0m           </p>
+ [2m124[0m │ [35;1m│[0m         </div>
+ [2m125[0m │ [35;1m│[0m       </section>
+ [2m126[0m │ [35;1m╰[0m[35;1m─[0m[35;1m▶[0m   );
+ [2m127[0m │     }
+ [2m128[0m │     
+     ╰────
+  [31m×[0m Expression expected
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:127:1]
+ [2m124[0m │       </div>
+ [2m125[0m │     </section>
+ [2m126[0m │   );
+ [2m127[0m │ }
+     · [35;1m─[0m
+ [2m128[0m │ 
+ [2m129[0m │ 
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HeroSection.tsx
+./app/page.tsx
+ [31m[1m⨯[22m[39m ./components/HeroSection.tsx
+Error:   [31m×[0m Return statement is not allowed here
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:71:1]
+ [2m 68[0m │     //     };
+ [2m 69[0m │     //   }, []);
+ [2m 70[0m │     
+ [2m 71[0m │ [35;1m╭[0m[35;1m─[0m[35;1m▶[0m   return (
+ [2m 72[0m │ [35;1m│[0m       
+ [2m 73[0m │ [35;1m│[0m       <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
+ [2m 74[0m │ [35;1m│[0m         {/* Video Background */}
+ [2m 75[0m │ [35;1m│[0m         <video
+ [2m 76[0m │ [35;1m│[0m           autoPlay
+ [2m 77[0m │ [35;1m│[0m           muted
+ [2m 78[0m │ [35;1m│[0m           loop
+ [2m 79[0m │ [35;1m│[0m           playsInline
+ [2m 80[0m │ [35;1m│[0m           className="absolute inset-0 w-full h-full object-cover z-0"
+ [2m 81[0m │ [35;1m│[0m         >
+ [2m 82[0m │ [35;1m│[0m           <source src="/videos/landing video simple.mp4" type="video/mp4" />
+ [2m 83[0m │ [35;1m│[0m         </video>
+ [2m 84[0m │ [35;1m│[0m   
+ [2m 85[0m │ [35;1m│[0m         {/* Overlay with animated opacity */}
+ [2m 86[0m │ [35;1m│[0m         {/* <div
+ [2m 87[0m │ [35;1m│[0m           className="absolute inset-0 bg-black z-10 transition-opacity duration-1000"
+ [2m 88[0m │ [35;1m│[0m           style={{ opacity: overlayOpacity }}
+ [2m 89[0m │ [35;1m│[0m         /> */}
+ [2m 90[0m │ [35;1m│[0m   
+ [2m 91[0m │ [35;1m│[0m         {/* Flash popups scattered across the screen - appear and disappear before main content */}
+ [2m 92[0m │ [35;1m│[0m         {/* <div className="absolute inset-0 z-[15] pointer-events-none">
+ [2m 93[0m │ [35;1m│[0m           {FLASH_POPUPS.map((popup, index) => (
+ [2m 94[0m │ [35;1m│[0m             <div
+ [2m 95[0m │ [35;1m│[0m               key={index}
+ [2m 96[0m │ [35;1m│[0m               className={`absolute transition-all duration-500 ease-out ${
+ [2m 97[0m │ [35;1m│[0m                 visiblePopups[index]
+ [2m 98[0m │ [35;1m│[0m                   ? "opacity-100 scale-100"
+ [2m 99[0m │ [35;1m│[0m                   : "opacity-0 scale-50"
+ [2m100[0m │ [35;1m│[0m               }`}
+ [2m101[0m │ [35;1m│[0m               style={{ top: popup.top, left: popup.left }}
+ [2m102[0m │ [35;1m│[0m             >
+ [2m103[0m │ [35;1m│[0m               <span className="text-white text-lg md:text-2xl font-bold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] whitespace-nowrap">
+ [2m104[0m │ [35;1m│[0m                 {popup.text}
+ [2m105[0m │ [35;1m│[0m               </span>
+ [2m106[0m │ [35;1m│[0m             </div>
+ [2m107[0m │ [35;1m│[0m           ))}
+ [2m108[0m │ [35;1m│[0m         </div> */}
+ [2m109[0m │ [35;1m│[0m   
+ [2m110[0m │ [35;1m│[0m         <div
+ [2m111[0m │ [35;1m│[0m           className={`relative z-20 max-w-7xl mx-auto text-white transition-opacity duration-5000 ${
+ [2m112[0m │ [35;1m│[0m             showContent ? "opacity-100" : "opacity-0"
+ [2m113[0m │ [35;1m│[0m           }`}
+ [2m114[0m │ [35;1m│[0m         >
+ [2m115[0m │ [35;1m│[0m           <h1 className="text-4xl md:text-5xl font-bold mt-40">
+ [2m116[0m │ [35;1m│[0m             <span className="text-6xl md:text-7xl">Innovative</span>
+ [2m117[0m │ [35;1m│[0m             <br />
+ [2m118[0m │ [35;1m│[0m             <span className="text-red-500"> Fiber Technology</span>
+ [2m119[0m │ [35;1m│[0m           </h1>
+ [2m120[0m │ [35;1m│[0m           <p className="text-gray-100 max-w-xl mb-12 pt-4">
+ [2m121[0m │ [35;1m│[0m             Our innovative solutions offer engineered nanofiber technology for
+ [2m122[0m │ [35;1m│[0m             various applications, enabling advanced material development and
+ [2m123[0m │ [35;1m│[0m             groundbreaking research.
+ [2m124[0m │ [35;1m│[0m           </p>
+ [2m125[0m │ [35;1m│[0m         </div>
+ [2m126[0m │ [35;1m│[0m       </section>
+ [2m127[0m │ [35;1m╰[0m[35;1m─[0m[35;1m▶[0m   );
+ [2m128[0m │     }
+ [2m129[0m │     
+     ╰────
+  [31m×[0m Expression expected
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:128:1]
+ [2m125[0m │       </div>
+ [2m126[0m │     </section>
+ [2m127[0m │   );
+ [2m128[0m │ }
+     · [35;1m─[0m
+ [2m129[0m │ 
+ [2m130[0m │ 
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HeroSection.tsx
+./app/page.tsx
+ [31m[1m⨯[22m[39m ./components/HeroSection.tsx
+Error:   [31m×[0m Expected ',', got 'className'
+    ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:73:1]
+ [2m70[0m │ 
+ [2m71[0m │   return (
+ [2m72[0m │     {}
+ [2m73[0m │     <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
+    · [35;1m             ─────────[0m
+ [2m74[0m │       {/* Video Background */}
+ [2m75[0m │       <video
+ [2m76[0m │         autoPlay
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HeroSection.tsx
+./app/page.tsx
+ [31m[1m⨯[22m[39m ./components/HeroSection.tsx
+Error:   [31m×[0m Expected ',', got 'className'
+    ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:75:1]
+ [2m72[0m │     {
+ [2m73[0m │       
+ [2m74[0m │     }
+ [2m75[0m │     <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
+    · [35;1m             ─────────[0m
+ [2m76[0m │       {/* Video Background */}
+ [2m77[0m │       <video
+ [2m78[0m │         autoPlay
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HeroSection.tsx
+./app/page.tsx
+ [31m[1m⨯[22m[39m ./components/HeroSection.tsx
+Error:   [31m×[0m Expression expected
+    ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:73:1]
+ [2m70[0m │ 
+ [2m71[0m │   return (
+ [2m72[0m │     {
+ [2m73[0m │     <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
+    · [35;1m    ─[0m
+ [2m74[0m │       {/* Video Background */}
+ [2m75[0m │       <video
+ [2m76[0m │         autoPlay
+    ╰────
+  [31m×[0m Expected ',', got 'className'
+    ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:73:1]
+ [2m70[0m │ 
+ [2m71[0m │   return (
+ [2m72[0m │     {
+ [2m73[0m │     <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
+    · [35;1m             ─────────[0m
+ [2m74[0m │       {/* Video Background */}
+ [2m75[0m │       <video
+ [2m76[0m │         autoPlay
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HeroSection.tsx
+./app/page.tsx
+ [31m[1m⨯[22m[39m ./components/HeroSection.tsx
+Error:   [31m×[0m Unexpected token `{`. Expected identifier, string literal, numeric literal or [ for the computed key
+    ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:73:1]
+ [2m70[0m │ 
+ [2m71[0m │   return (
+ [2m72[0m │     {
+ [2m73[0m │       {
+    · [35;1m      ─[0m
+ [2m74[0m │     <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
+ [2m75[0m │       {/* Video Background */}
+ [2m76[0m │       <video
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HeroSection.tsx
+./app/page.tsx
+ [31m[1m⨯[22m[39m ./components/HeroSection.tsx
+Error:   [31m×[0m Unexpected token `{`. Expected identifier, string literal, numeric literal or [ for the computed key
+    ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:73:1]
+ [2m70[0m │ 
+ [2m71[0m │   return (
+ [2m72[0m │     {
+ [2m73[0m │       {
+    · [35;1m      ─[0m
+ [2m74[0m │     <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
+ [2m75[0m │       {/* Video Background */}
+ [2m76[0m │       <video
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HeroSection.tsx
+./app/page.tsx
+ [31m[1m⨯[22m[39m ./components/HeroSection.tsx
+Error:   [31m×[0m Return statement is not allowed here
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:71:1]
+ [2m 68[0m │     //     };
+ [2m 69[0m │     //   }, []);
+ [2m 70[0m │     
+ [2m 71[0m │ [35;1m╭[0m[35;1m─[0m[35;1m▶[0m   return (
+ [2m 72[0m │ [35;1m│[0m       <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
+ [2m 73[0m │ [35;1m│[0m         {/* Video Background */}
+ [2m 74[0m │ [35;1m│[0m         <video
+ [2m 75[0m │ [35;1m│[0m           autoPlay
+ [2m 76[0m │ [35;1m│[0m           muted
+ [2m 77[0m │ [35;1m│[0m           loop
+ [2m 78[0m │ [35;1m│[0m           playsInline
+ [2m 79[0m │ [35;1m│[0m           className="absolute inset-0 w-full h-full object-cover z-0"
+ [2m 80[0m │ [35;1m│[0m         >
+ [2m 81[0m │ [35;1m│[0m           <source src="/videos/landing video simple.mp4" type="video/mp4" />
+ [2m 82[0m │ [35;1m│[0m         </video>
+ [2m 83[0m │ [35;1m│[0m   
+ [2m 84[0m │ [35;1m│[0m         {/* Overlay with animated opacity */}
+ [2m 85[0m │ [35;1m│[0m         {/* <div
+ [2m 86[0m │ [35;1m│[0m           className="absolute inset-0 bg-black z-10 transition-opacity duration-1000"
+ [2m 87[0m │ [35;1m│[0m           style={{ opacity: overlayOpacity }}
+ [2m 88[0m │ [35;1m│[0m         /> */}
+ [2m 89[0m │ [35;1m│[0m   
+ [2m 90[0m │ [35;1m│[0m         {/* Flash popups scattered across the screen - appear and disappear before main content */}
+ [2m 91[0m │ [35;1m│[0m         {/* <div className="absolute inset-0 z-[15] pointer-events-none">
+ [2m 92[0m │ [35;1m│[0m           {FLASH_POPUPS.map((popup, index) => (
+ [2m 93[0m │ [35;1m│[0m             <div
+ [2m 94[0m │ [35;1m│[0m               key={index}
+ [2m 95[0m │ [35;1m│[0m               className={`absolute transition-all duration-500 ease-out ${
+ [2m 96[0m │ [35;1m│[0m                 visiblePopups[index]
+ [2m 97[0m │ [35;1m│[0m                   ? "opacity-100 scale-100"
+ [2m 98[0m │ [35;1m│[0m                   : "opacity-0 scale-50"
+ [2m 99[0m │ [35;1m│[0m               }`}
+ [2m100[0m │ [35;1m│[0m               style={{ top: popup.top, left: popup.left }}
+ [2m101[0m │ [35;1m│[0m             >
+ [2m102[0m │ [35;1m│[0m               <span className="text-white text-lg md:text-2xl font-bold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] whitespace-nowrap">
+ [2m103[0m │ [35;1m│[0m                 {popup.text}
+ [2m104[0m │ [35;1m│[0m               </span>
+ [2m105[0m │ [35;1m│[0m             </div>
+ [2m106[0m │ [35;1m│[0m           ))}
+ [2m107[0m │ [35;1m│[0m         </div> */}
+ [2m108[0m │ [35;1m│[0m   
+ [2m109[0m │ [35;1m│[0m         <div
+ [2m110[0m │ [35;1m│[0m           className={`relative z-20 max-w-7xl mx-auto text-white transition-opacity duration-5000 ${
+ [2m111[0m │ [35;1m│[0m             showContent ? "opacity-100" : "opacity-0"
+ [2m112[0m │ [35;1m│[0m           }`}
+ [2m113[0m │ [35;1m│[0m         >
+ [2m114[0m │ [35;1m│[0m           <h1 className="text-4xl md:text-5xl font-bold mt-40">
+ [2m115[0m │ [35;1m│[0m             <span className="text-6xl md:text-7xl">Innovative</span>
+ [2m116[0m │ [35;1m│[0m             <br />
+ [2m117[0m │ [35;1m│[0m             <span className="text-red-500"> Fiber Technology</span>
+ [2m118[0m │ [35;1m│[0m           </h1>
+ [2m119[0m │ [35;1m│[0m           <p className="text-gray-100 max-w-xl mb-12 pt-4">
+ [2m120[0m │ [35;1m│[0m             Our innovative solutions offer engineered nanofiber technology for
+ [2m121[0m │ [35;1m│[0m             various applications, enabling advanced material development and
+ [2m122[0m │ [35;1m│[0m             groundbreaking research.
+ [2m123[0m │ [35;1m│[0m           </p>
+ [2m124[0m │ [35;1m│[0m         </div>
+ [2m125[0m │ [35;1m│[0m       </section>
+ [2m126[0m │ [35;1m╰[0m[35;1m─[0m[35;1m▶[0m   );
+ [2m127[0m │     }
+ [2m128[0m │     
+     ╰────
+  [31m×[0m Expression expected
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:127:1]
+ [2m124[0m │       </div>
+ [2m125[0m │     </section>
+ [2m126[0m │   );
+ [2m127[0m │ }
+     · [35;1m─[0m
+ [2m128[0m │ 
+ [2m129[0m │ 
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HeroSection.tsx
+./app/page.tsx
+ [31m[1m⨯[22m[39m ./components/HeroSection.tsx
+Error:   [31m×[0m Return statement is not allowed here
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:71:1]
+ [2m 68[0m │     //     };
+ [2m 69[0m │     //   }, []);
+ [2m 70[0m │     
+ [2m 71[0m │ [35;1m╭[0m[35;1m─[0m[35;1m▶[0m   return (
+ [2m 72[0m │ [35;1m│[0m       
+ [2m 73[0m │ [35;1m│[0m       <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
+ [2m 74[0m │ [35;1m│[0m         {/* Video Background */}
+ [2m 75[0m │ [35;1m│[0m         <video
+ [2m 76[0m │ [35;1m│[0m           autoPlay
+ [2m 77[0m │ [35;1m│[0m           muted
+ [2m 78[0m │ [35;1m│[0m           loop
+ [2m 79[0m │ [35;1m│[0m           playsInline
+ [2m 80[0m │ [35;1m│[0m           className="absolute inset-0 w-full h-full object-cover z-0"
+ [2m 81[0m │ [35;1m│[0m         >
+ [2m 82[0m │ [35;1m│[0m           <source src="/videos/landing video simple.mp4" type="video/mp4" />
+ [2m 83[0m │ [35;1m│[0m         </video>
+ [2m 84[0m │ [35;1m│[0m   
+ [2m 85[0m │ [35;1m│[0m         {/* Overlay with animated opacity */}
+ [2m 86[0m │ [35;1m│[0m         {/* <div
+ [2m 87[0m │ [35;1m│[0m           className="absolute inset-0 bg-black z-10 transition-opacity duration-1000"
+ [2m 88[0m │ [35;1m│[0m           style={{ opacity: overlayOpacity }}
+ [2m 89[0m │ [35;1m│[0m         /> */}
+ [2m 90[0m │ [35;1m│[0m   
+ [2m 91[0m │ [35;1m│[0m         {/* Flash popups scattered across the screen - appear and disappear before main content */}
+ [2m 92[0m │ [35;1m│[0m         {/* <div className="absolute inset-0 z-[15] pointer-events-none">
+ [2m 93[0m │ [35;1m│[0m           {FLASH_POPUPS.map((popup, index) => (
+ [2m 94[0m │ [35;1m│[0m             <div
+ [2m 95[0m │ [35;1m│[0m               key={index}
+ [2m 96[0m │ [35;1m│[0m               className={`absolute transition-all duration-500 ease-out ${
+ [2m 97[0m │ [35;1m│[0m                 visiblePopups[index]
+ [2m 98[0m │ [35;1m│[0m                   ? "opacity-100 scale-100"
+ [2m 99[0m │ [35;1m│[0m                   : "opacity-0 scale-50"
+ [2m100[0m │ [35;1m│[0m               }`}
+ [2m101[0m │ [35;1m│[0m               style={{ top: popup.top, left: popup.left }}
+ [2m102[0m │ [35;1m│[0m             >
+ [2m103[0m │ [35;1m│[0m               <span className="text-white text-lg md:text-2xl font-bold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] whitespace-nowrap">
+ [2m104[0m │ [35;1m│[0m                 {popup.text}
+ [2m105[0m │ [35;1m│[0m               </span>
+ [2m106[0m │ [35;1m│[0m             </div>
+ [2m107[0m │ [35;1m│[0m           ))}
+ [2m108[0m │ [35;1m│[0m         </div> */}
+ [2m109[0m │ [35;1m│[0m   
+ [2m110[0m │ [35;1m│[0m         <div
+ [2m111[0m │ [35;1m│[0m           className={`relative z-20 max-w-7xl mx-auto text-white transition-opacity duration-5000 ${
+ [2m112[0m │ [35;1m│[0m             showContent ? "opacity-100" : "opacity-0"
+ [2m113[0m │ [35;1m│[0m           }`}
+ [2m114[0m │ [35;1m│[0m         >
+ [2m115[0m │ [35;1m│[0m           <h1 className="text-4xl md:text-5xl font-bold mt-40">
+ [2m116[0m │ [35;1m│[0m             <span className="text-6xl md:text-7xl">Innovative</span>
+ [2m117[0m │ [35;1m│[0m             <br />
+ [2m118[0m │ [35;1m│[0m             <span className="text-red-500"> Fiber Technology</span>
+ [2m119[0m │ [35;1m│[0m           </h1>
+ [2m120[0m │ [35;1m│[0m           <p className="text-gray-100 max-w-xl mb-12 pt-4">
+ [2m121[0m │ [35;1m│[0m             Our innovative solutions offer engineered nanofiber technology for
+ [2m122[0m │ [35;1m│[0m             various applications, enabling advanced material development and
+ [2m123[0m │ [35;1m│[0m             groundbreaking research.
+ [2m124[0m │ [35;1m│[0m           </p>
+ [2m125[0m │ [35;1m│[0m         </div>
+ [2m126[0m │ [35;1m│[0m       </section>
+ [2m127[0m │ [35;1m╰[0m[35;1m─[0m[35;1m▶[0m   );
+ [2m128[0m │     }
+ [2m129[0m │     
+     ╰────
+  [31m×[0m Expression expected
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:128:1]
+ [2m125[0m │       </div>
+ [2m126[0m │     </section>
+ [2m127[0m │   );
+ [2m128[0m │ }
+     · [35;1m─[0m
+ [2m129[0m │ 
+ [2m130[0m │ 
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HeroSection.tsx
+./app/page.tsx
+ [31m[1m⨯[22m[39m ./components/HeroSection.tsx
+Error:   [31m×[0m Return statement is not allowed here
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:71:1]
+ [2m 68[0m │     //     };
+ [2m 69[0m │     //   }, []);
+ [2m 70[0m │     
+ [2m 71[0m │ [35;1m╭[0m[35;1m─[0m[35;1m▶[0m   return (
+ [2m 72[0m │ [35;1m│[0m       <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden ">
+ [2m 73[0m │ [35;1m│[0m         {/* Video Background */}
+ [2m 74[0m │ [35;1m│[0m         <video
+ [2m 75[0m │ [35;1m│[0m           autoPlay
+ [2m 76[0m │ [35;1m│[0m           muted
+ [2m 77[0m │ [35;1m│[0m           loop
+ [2m 78[0m │ [35;1m│[0m           playsInline
+ [2m 79[0m │ [35;1m│[0m           className="absolute inset-0 w-full h-full object-cover z-0"
+ [2m 80[0m │ [35;1m│[0m         >
+ [2m 81[0m │ [35;1m│[0m           <source src="/videos/landing video simple.mp4" type="video/mp4" />
+ [2m 82[0m │ [35;1m│[0m         </video>
+ [2m 83[0m │ [35;1m│[0m   
+ [2m 84[0m │ [35;1m│[0m         {/* Overlay with animated opacity */}
+ [2m 85[0m │ [35;1m│[0m         {/* <div
+ [2m 86[0m │ [35;1m│[0m           className="absolute inset-0 bg-black z-10 transition-opacity duration-1000"
+ [2m 87[0m │ [35;1m│[0m           style={{ opacity: overlayOpacity }}
+ [2m 88[0m │ [35;1m│[0m         /> */}
+ [2m 89[0m │ [35;1m│[0m   
+ [2m 90[0m │ [35;1m│[0m         {/* Flash popups scattered across the screen - appear and disappear before main content */}
+ [2m 91[0m │ [35;1m│[0m         <div className="absolute inset-0 z-[15] pointer-events-none">
+ [2m 92[0m │ [35;1m│[0m           {FLASH_POPUPS.map((popup, index) => (
+ [2m 93[0m │ [35;1m│[0m             <div
+ [2m 94[0m │ [35;1m│[0m               key={index}
+ [2m 95[0m │ [35;1m│[0m               className={`absolute transition-all duration-500 ease-out ${
+ [2m 96[0m │ [35;1m│[0m                 visiblePopups[index]
+ [2m 97[0m │ [35;1m│[0m                   ? "opacity-100 scale-100"
+ [2m 98[0m │ [35;1m│[0m                   : "opacity-0 scale-50"
+ [2m 99[0m │ [35;1m│[0m               }`}
+ [2m100[0m │ [35;1m│[0m               style={{ top: popup.top, left: popup.left }}
+ [2m101[0m │ [35;1m│[0m             >
+ [2m102[0m │ [35;1m│[0m               <span className="text-white text-lg md:text-2xl font-bold drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] whitespace-nowrap">
+ [2m103[0m │ [35;1m│[0m                 {popup.text}
+ [2m104[0m │ [35;1m│[0m               </span>
+ [2m105[0m │ [35;1m│[0m             </div>
+ [2m106[0m │ [35;1m│[0m           ))}
+ [2m107[0m │ [35;1m│[0m         </div>
+ [2m108[0m │ [35;1m│[0m   
+ [2m109[0m │ [35;1m│[0m         <div
+ [2m110[0m │ [35;1m│[0m           className={`relative z-20 max-w-7xl mx-auto text-white transition-opacity duration-5000 ${
+ [2m111[0m │ [35;1m│[0m             showContent ? "opacity-100" : "opacity-0"
+ [2m112[0m │ [35;1m│[0m           }`}
+ [2m113[0m │ [35;1m│[0m         >
+ [2m114[0m │ [35;1m│[0m           <h1 className="text-4xl md:text-5xl font-bold mt-40">
+ [2m115[0m │ [35;1m│[0m             <span className="text-6xl md:text-7xl">Innovative</span>
+ [2m116[0m │ [35;1m│[0m             <br />
+ [2m117[0m │ [35;1m│[0m             <span className="text-red-500"> Fiber Technology</span>
+ [2m118[0m │ [35;1m│[0m           </h1>
+ [2m119[0m │ [35;1m│[0m           <p className="text-gray-100 max-w-xl mb-12 pt-4">
+ [2m120[0m │ [35;1m│[0m             Our innovative solutions offer engineered nanofiber technology for
+ [2m121[0m │ [35;1m│[0m             various applications, enabling advanced material development and
+ [2m122[0m │ [35;1m│[0m             groundbreaking research.
+ [2m123[0m │ [35;1m│[0m           </p>
+ [2m124[0m │ [35;1m│[0m         </div>
+ [2m125[0m │ [35;1m│[0m       </section>
+ [2m126[0m │ [35;1m╰[0m[35;1m─[0m[35;1m▶[0m   );
+ [2m127[0m │     }
+ [2m128[0m │     
+     ╰────
+  [31m×[0m Expression expected
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:127:1]
+ [2m124[0m │       </div>
+ [2m125[0m │     </section>
+ [2m126[0m │   );
+ [2m127[0m │ }
+     · [35;1m─[0m
+ [2m128[0m │ 
+ [2m129[0m │ 
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HeroSection.tsx
+./app/page.tsx
+ [32m[1m✓[22m[39m Compiled in 1344ms (821 modules)
+ [32m[1m✓[22m[39m Compiled in 972ms (821 modules)
+ [32m[1m✓[22m[39m Compiled in 723ms (821 modules)
+ [31m[1m⨯[22m[39m ./components/HeroSection.tsx
+Error:   [31m×[0m Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     ╭─[[36;1;4m/home/runner/workspace/components/HeroSection.tsx[0m:124:1]
+ [2m121[0m │           various applications, enabling advanced material development and
+ [2m122[0m │           groundbreaking research.
+ [2m123[0m │         </p>
+ [2m124[0m │       </div> */}
+     · [35;1m               ▲[0m
+ [2m125[0m │     </section>
+ [2m126[0m │   );
+ [2m127[0m │ }
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/HeroSection.tsx
+./app/page.tsx
+ [32m[1m✓[22m[39m Compiled in 753ms (821 modules)
+ [32m[1m✓[22m[39m Compiled in 829ms (821 modules)
+ [32m[1m✓[22m[39m Compiled in 854ms (821 modules)
+ [32m[1m✓[22m[39m Compiled in 842ms (821 modules)
+ [32m[1m✓[22m[39m Compiled in 862ms (821 modules)
+ [32m[1m✓[22m[39m Compiled in 935ms (821 modules)
+ GET / [32m200[39m in 356ms
+ [32m[1m✓[22m[39m Compiled in 1346ms (821 modules)
+ GET / [32m200[39m in 137ms
+ [32m[1m✓[22m[39m Compiled in 890ms (821 modules)
+ GET / [32m200[39m in 129ms
+ GET / [32m200[39m in 235ms
+ GET / [32m200[39m in 125ms
+ GET / [32m200[39m in 102ms
+ [32m[1m✓[22m[39m Compiled in 1511ms (699 modules)
+ GET / [32m200[39m in 118ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.] {
+  digest: [32m'2885104816'[39m
+}
+ GET / [31m500[39m in 587ms
+ [32m[1m✓[22m[39m Compiled in 925ms (699 modules)
+ [32m[1m✓[22m[39m Compiled in 1829ms (699 modules)
+ [32m[1m✓[22m[39m Compiled in 1288ms (837 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [32m200[39m in 333ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [32m200[39m in 143ms
+ [32m[1m✓[22m[39m Compiled in 1082ms (837 modules)
+ GET / [32m200[39m in 144ms
+ GET / [32m200[39m in 142ms
+ GET / [32m200[39m in 248ms
+ GET / [32m200[39m in 160ms
+ [32m[1m✓[22m[39m Compiled in 1243ms (837 modules)
+ GET / [32m200[39m in 110ms
+ GET / [32m200[39m in 284ms
