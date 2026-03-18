@@ -10,21 +10,10 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         images: [
           "/product categories/pvdf-sem-airfiltration.jpg",
           "/product categories/Air Filtration Membrane.jpeg",
-          "/membrane.jpeg",
         ],
-        pricing: [
-          { moq: "550+", price: "$12.34" },
-          { moq: "1,100+", price: "$10.56" },
-          { moq: "1,650+", price: "$9.30" },
-          { moq: "3,300+", price: "Negotiable" },
-        ],
-        highlights: [
-          "Worldwide shipping",
-          "Various formats available",
-          "Manufactured in GMP environment",
-          "Expert team of various scientists",
-        ],
-        deliveryTime: "2-4 weeks",
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
         applications: [
           "Air filtration membranes",
           "Gas separation systems",
@@ -42,14 +31,14 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           ],
         },
         specifications: {
-          heading: "PVDF Membrane Specifications",
+          heading: "Membrane Specifications",
           groups: [
             {
               title: "Nanofiber Spinning Capability",
               color: "blue",
               items: [
                 { label: "Pure PVDF", checked: true },
-                { label: "PVDF blended with polymers, drugs, nanoparticles", checked: true },
+                { label: "PVDF blended with other polymers, drugs, nanoparticles etc.", checked: true },
               ],
             },
             {
@@ -57,7 +46,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
               color: "amber",
               items: [
                 { label: "Free-standing nanofiber membrane", checked: true },
-                { label: "Supported on substrates (aluminium foil, non-woven PP fabric, etc.)", checked: true },
+                { label: "Supported on substrates (e.g., aluminium foil, non-woven PP fabric, etc.)", checked: true },
               ],
             },
             {
@@ -66,14 +55,14 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
               value: "100 \u2013 300 nm",
             },
             {
-              title: "Thickness & Weight Density",
+              title: "Thickness and weight Density",
               color: "amber",
-              value: "60\u2013100 \u00B5m | Up to 8.0 gsm",
+              value: "Thickness 60-100 \u00B5m | Up to 8.0 gsm",
             },
           ],
           formats: [
             { label: "Rolls", icon: "roll" },
-            { label: "Sheets (10\u00D710, 14\u00D728, 25\u00D7200 cm)", icon: "sheet-large" },
+            { label: "Sheets (10 \u00D7 10 cm, 14 \u00D7 28 cm, 25 \u00D7 200 cm)", icon: "sheet-large" },
             { label: "Custom-sized patches", subtitle: "(as per specific requirements)", icon: "custom" },
           ],
         },
@@ -85,21 +74,10 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         images: [
           "/product categories/polysulfone-sem-airfiltration.jpg",
           "/product categories/Air Filtration Membrane.jpeg",
-          "/membrane.jpeg",
         ],
-        pricing: [
-          { moq: "550+", price: "$12.34" },
-          { moq: "1,100+", price: "$10.56" },
-          { moq: "1,650+", price: "$9.30" },
-          { moq: "3,300+", price: "Negotiable" },
-        ],
-        highlights: [
-          "Worldwide shipping",
-          "Various formats available",
-          "Manufactured in GMP environment",
-          "Expert team of various scientists",
-        ],
-        deliveryTime: "2-4 weeks",
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
         applications: [
           "Battery separators for energy storage systems",
           "Air filtration membranes",
@@ -110,20 +88,19 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           heading: "Product Description",
           image: "/product categories/polysulfone-sem-airfiltration.jpg",
           paragraphs: [
-            "E-Spin Nanotech manufactures high-performance electrospun Polysulfone nanofiber membranes designed for advanced energy and filtration applications. These membranes feature a highly porous nanofibrous structure, excellent thermal stability, and superior chemical resistance, making them ideal for use in battery separators and other high-efficiency systems.",
-            "Our Polysulfone nanofiber membranes are engineered to deliver enhanced electrolyte uptake, improved ionic conductivity, and reliable mechanical strength, which are critical for next-generation battery technologies.",
+            "E-Spin Nanotech manufactures high-performance electrospun Polysulfone nanofiber membranes designed for advanced energy and filtration applications. These membranes feature a highly porous nanofibrous structure, excellent thermal stability, and superior chemical resistance, making them ideal for use in battery separators and other high-efficiency systems. Our Polysulfone nanofiber membranes are engineered to deliver enhanced electrolyte uptake, improved ionic conductivity, and reliable mechanical strength, which are critical for next-generation battery technologies.",
             "In addition to energy storage systems, these membranes are also suitable for a wide range of applications, including air filtration, water purification, and sensor technologies, where high surface area and controlled porosity are essential for performance.",
           ],
         },
         specifications: {
-          heading: "Polysulfone Membrane Specifications",
+          heading: "Membrane Specifications",
           groups: [
             {
               title: "Nanofiber Spinning Capability",
               color: "blue",
               items: [
                 { label: "Pure Polysulfone", checked: true },
-                { label: "Blended with polymers, nanoparticles, additives", checked: true },
+                { label: "Blended with other polymers, nanoparticles, additives etc.", checked: true },
               ],
             },
             {
@@ -131,7 +108,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
               color: "amber",
               items: [
                 { label: "Free-standing nanofiber membrane", checked: true },
-                { label: "Supported on substrates (aluminium foil, non-woven PP fabric, etc.)", checked: true },
+                { label: "Supported on substrates (e.g., aluminium foil, non-woven PP fabric, etc.)", checked: true },
               ],
             },
             {
@@ -140,14 +117,14 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
               value: "200 \u2013 500 nm",
             },
             {
-              title: "Thickness & Weight Density",
+              title: "Thickness and weight Density",
               color: "amber",
-              value: "50\u201380 \u00B5m | Up to 4.0 gsm",
+              value: "Thickness 50-80 \u00B5m | Up to 4.0 gsm",
             },
           ],
           formats: [
             { label: "Rolls", icon: "roll" },
-            { label: "Sheets (10\u00D710, 14\u00D728, 25\u00D7200 cm)", icon: "sheet-large" },
+            { label: "Sheets (10 \u00D7 10 cm, 14 \u00D7 28 cm, 25 \u00D7 200 cm)", icon: "sheet-large" },
             { label: "Custom-sized patches", subtitle: "(as per specific requirements)", icon: "custom" },
           ],
         },
@@ -159,21 +136,10 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         images: [
           "/product categories/nylon6-sem-airfiltration.jpg",
           "/product categories/Air Filtration Membrane.jpeg",
-          "/membrane.jpeg",
         ],
-        pricing: [
-          { moq: "550+", price: "$12.34" },
-          { moq: "1,100+", price: "$10.56" },
-          { moq: "1,650+", price: "$9.30" },
-          { moq: "3,300+", price: "Negotiable" },
-        ],
-        highlights: [
-          "Worldwide shipping",
-          "Various formats available",
-          "Manufactured in GMP environment",
-          "Expert team of various scientists",
-        ],
-        deliveryTime: "2-4 weeks",
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
         applications: [
           "Air filtration membranes",
           "Protective and functional textiles",
@@ -190,14 +156,14 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           ],
         },
         specifications: {
-          heading: "Nylon 6 Membrane Specifications",
+          heading: "Membrane Specifications",
           groups: [
             {
               title: "Nanofiber Spinning Capability",
               color: "blue",
               items: [
                 { label: "Pure PA6/PA66", checked: true },
-                { label: "Blended with polymers, nanoparticles, additives", checked: true },
+                { label: "Blended with other polymers, nanoparticles, additives etc.", checked: true },
               ],
             },
             {
@@ -205,49 +171,38 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
               color: "amber",
               items: [
                 { label: "Free-standing nanofiber membrane", checked: true },
-                { label: "Supported on substrates (aluminium foil, non-woven PP fabric, etc.)", checked: true },
+                { label: "Supported on substrates (e.g., aluminium foil, non-woven PP fabric, etc.)", checked: true },
               ],
             },
             {
               title: "Nanofiber Diameter Range",
               color: "blue",
-              value: "50 \u2013 150 nm",
+              value: "70-100 nm",
             },
             {
-              title: "Thickness & Weight Density",
+              title: "Thickness and weight Density",
               color: "amber",
-              value: "50\u2013120 \u00B5m | Up to 8.0 gsm",
+              value: "Thickness 50-120 \u00B5m | Up to 8.0 gsm",
             },
           ],
           formats: [
             { label: "Rolls", icon: "roll" },
-            { label: "Sheets (10\u00D710, 14\u00D728, 25\u00D7200 cm)", icon: "sheet-large" },
+            { label: "Sheets (10 \u00D7 10 cm, 14 \u00D7 28 cm, 25 \u00D7 200 cm)", icon: "sheet-large" },
             { label: "Custom-sized patches", subtitle: "(as per specific requirements)", icon: "custom" },
           ],
         },
       },
       {
         id: "pan",
-        title: "PAN Nanofiber Membrane",
+        title: "PAN nanofiber membrane",
         subtitle: "Electrospun PAN (Polyacrylonitrile) Nanofiber Membrane",
         images: [
           "/product categories/pan-sem-airfiltration.jpg",
           "/product categories/Air Filtration Membrane.jpeg",
-          "/membrane.jpeg",
         ],
-        pricing: [
-          { moq: "550+", price: "$12.34" },
-          { moq: "1,100+", price: "$10.56" },
-          { moq: "1,650+", price: "$9.30" },
-          { moq: "3,300+", price: "Negotiable" },
-        ],
-        highlights: [
-          "Worldwide shipping",
-          "Various formats available",
-          "Manufactured in GMP environment",
-          "Expert team of various scientists",
-        ],
-        deliveryTime: "2-4 weeks",
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
         applications: [
           "Air filtration membranes",
           "Water filtration and purification",
@@ -265,14 +220,14 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           ],
         },
         specifications: {
-          heading: "PAN Membrane Specifications",
+          heading: "Membrane Specifications",
           groups: [
             {
               title: "Nanofiber Spinning Capability",
               color: "blue",
               items: [
                 { label: "Pure PAN powder", checked: true },
-                { label: "Blended with polymers, nanoparticles, additives", checked: true },
+                { label: "Blended with other polymers, nanoparticles, additives etc.", checked: true },
               ],
             },
             {
@@ -280,48 +235,37 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
               color: "amber",
               items: [
                 { label: "Free-standing nanofiber membrane", checked: true },
-                { label: "Supported on substrates (aluminium foil, non-woven PP fabric, etc.)", checked: true },
+                { label: "Supported on substrates (e.g., aluminium foil, non-woven PP fabric, etc.)", checked: true },
               ],
             },
             {
               title: "Nanofiber Diameter Range",
               color: "blue",
-              value: "100 \u2013 500 nm",
+              value: "100-500 nm",
             },
             {
-              title: "Thickness & Weight Density",
+              title: "Thickness and weight Density",
               color: "amber",
-              value: "50\u2013100 \u00B5m | Up to 6.0 gsm",
+              value: "Thickness 50-100 \u00B5m | Up to 6.0 gsm",
             },
           ],
           formats: [
             { label: "Rolls", icon: "roll" },
-            { label: "Sheets (10\u00D710, 14\u00D728, 25\u00D7200 cm)", icon: "sheet-large" },
+            { label: "Sheets (10 \u00D7 10 cm, 14 \u00D7 28 cm, 25 \u00D7 200 cm)", icon: "sheet-large" },
             { label: "Custom-sized patches", subtitle: "(as per specific requirements)", icon: "custom" },
           ],
         },
       },
       {
         id: "pva",
-        title: "PVA Nanofiber Membrane",
+        title: "PVA nanofiber membrane",
         subtitle: "Electrospun PVA (Polyvinyl Alcohol) Nanofiber Membrane",
         images: [
           "/product categories/Air Filtration Membrane.jpeg",
-          "/membrane.jpeg",
         ],
-        pricing: [
-          { moq: "550+", price: "$12.34" },
-          { moq: "1,100+", price: "$10.56" },
-          { moq: "1,650+", price: "$9.30" },
-          { moq: "3,300+", price: "Negotiable" },
-        ],
-        highlights: [
-          "Worldwide shipping",
-          "Various formats available",
-          "Manufactured in GMP environment",
-          "Expert team of various scientists",
-        ],
-        deliveryTime: "2-4 weeks",
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
         applications: [
           "Drug delivery",
           "Biomedical and healthcare materials",
@@ -338,14 +282,14 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           ],
         },
         specifications: {
-          heading: "PVA Membrane Specifications",
+          heading: "Membrane Specifications",
           groups: [
             {
               title: "Nanofiber Spinning Capability",
               color: "blue",
               items: [
                 { label: "Pure PVA", checked: true },
-                { label: "Blended with chitosan, gelatine, nanoparticles, additives", checked: true },
+                { label: "Blended with other polymers like chitosan, gelatine, nanoparticles, additives etc.", checked: true },
               ],
             },
             {
@@ -353,23 +297,23 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
               color: "amber",
               items: [
                 { label: "Free-standing nanofiber membrane", checked: true },
-                { label: "Supported on substrates (aluminium foil, non-woven PP fabric, etc.)", checked: true },
+                { label: "Supported on substrates (e.g., aluminium foil, non-woven PP fabric, etc.)", checked: true },
               ],
             },
             {
               title: "Nanofiber Diameter Range",
               color: "blue",
-              value: "100 \u2013 600 nm",
+              value: "100-600 nm",
             },
             {
-              title: "Thickness & Weight Density",
+              title: "Thickness and weight Density",
               color: "amber",
-              value: "50\u2013100 \u00B5m | Up to 8.0 gsm",
+              value: "Thickness 50-100 \u00B5m | Up to 8.0 gsm",
             },
           ],
           formats: [
             { label: "Rolls", icon: "roll" },
-            { label: "Sheets (10\u00D710, 14\u00D728, 25\u00D7200 cm)", icon: "sheet-large" },
+            { label: "Sheets (10 \u00D7 10 cm, 14 \u00D7 28 cm, 25 \u00D7 200 cm)", icon: "sheet-large" },
             { label: "Custom-sized patches", subtitle: "(as per specific requirements)", icon: "custom" },
           ],
         },
