@@ -134,8 +134,8 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         title: "Nylon 6 Nanofiber Membrane",
         subtitle: "Electrospun Nylon 6 (Polyamide 6) Nanofiber Membrane",
         images: [
-          "/product categories/nylon6-sem-airfiltration.jpg",
-          "/product categories/Air Filtration Membrane.jpeg",
+          "/product categories/nylon6-sem-1.jpg",
+          "/product categories/nylon6-sem-2.jpg",
         ],
         pricing: [],
         highlights: [],
@@ -148,7 +148,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         ],
         description: {
           heading: "Product Description",
-          image: "/product categories/nylon6-sem-airfiltration.jpg",
+          image: "/product categories/nylon6-sem-2.jpg",
           paragraphs: [
             "E-Spin Nanotech manufactures high-quality electrospun Nylon 6 nanofiber membranes designed for advanced filtration and functional material applications. Nylon 6 (polyamide 6) is a widely used engineering polymer known for its excellent mechanical strength, abrasion resistance, chemical stability, and good thermal properties, making it suitable for durable nanofiber membrane systems.",
             "Electrospun Nylon 6 nanofiber membranes possess high porosity, interconnected pore structure, and ultrafine fibre diameters, which provide excellent permeability and high surface area. These characteristics enable efficient capture of fine particles, making them highly effective for air filtration and liquid filtration applications.",
@@ -261,7 +261,8 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         title: "PVA nanofiber membrane",
         subtitle: "Electrospun PVA (Polyvinyl Alcohol) Nanofiber Membrane",
         images: [
-          "/product categories/Air Filtration Membrane.jpeg",
+          "/product categories/pva-sem-1.jpg",
+          "/product categories/pva-sem-2.jpg",
         ],
         pricing: [],
         highlights: [],
@@ -274,7 +275,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         ],
         description: {
           heading: "Product Description",
-          image: "/product categories/Air Filtration Membrane.jpeg",
+          image: "/product categories/pva-sem-1.jpg",
           paragraphs: [
             "E-Spin Nanotech manufactures advanced electrospun PVA nanofiber membranes designed for a wide range of filtration and functional material applications. Polyvinyl alcohol (PVA) is a water-soluble synthetic polymer known for its excellent film-forming ability, high hydrophilicity, good mechanical properties, and biocompatibility.",
             "Electrospun PVA nanofiber membranes exhibit high porosity, interconnected pore structure, and ultrafine fibre diameter, which provide large surface area and efficient transport properties. These characteristics make them highly suitable for drug delivery, biomedical materials, and functional coatings.",
