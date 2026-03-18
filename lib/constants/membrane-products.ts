@@ -8,8 +8,8 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         title: "Electrospun PVDF Nanofiber Membrane",
         subtitle: "Electrospun PVDF (Polyvinylidene difluoride) Nanofiber",
         images: [
-          "/product categories/pvdf-sem-airfiltration.jpg",
-          "/product categories/Air Filtration Membrane.jpeg",
+          "/product categories/Electrospun PVDF Nanofiber Membrane 1.jpg",
+          "/product categories/Electrospun PVDF Nanofiber Membrane 2.jpg",
         ],
         pricing: [],
         highlights: [],
@@ -23,7 +23,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         ],
         description: {
           heading: "Product Description",
-          image: "/product categories/pvdf-sem-airfiltration.jpg",
+          image: "/product categories/Electrospun PVDF Nanofiber Membrane 1.jpg",
           paragraphs: [
             "E-Spin Nanotech manufactures high-performance electrospun PVDF nanofiber membranes designed for advanced filtration, sensing, and energy storage applications. Polyvinylidene difluoride (PVDF) is a chemically stable thermoplastic fluoropolymer known for its excellent mechanical strength, thermal stability, and strong piezoelectric properties. It is lightweight, flexible, chemically inert, and highly durable under demanding operating conditions, making it an ideal material for functional nanofiber membranes.",
             "Electrospun PVDF membranes possess high porosity, ultrafine fibre diameter, and strong electrostatic properties, which enable efficient capture of fine particulate matter in air filtration systems. Their controlled pore structure and chemical resistance also make them suitable for gas separation and advanced filtration processes.",
@@ -72,8 +72,8 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         title: "Polysulfone Nanofiber Membrane",
         subtitle: "Electrospun Polysulfone Nanofiber Membrane",
         images: [
-          "/product categories/polysulfone-sem-airfiltration.jpg",
-          "/product categories/Air Filtration Membrane.jpeg",
+          "/product categories/Polysulfone Nanofiber Membrane 1.jpg",
+          "/product categories/Polysulfone Nanofiber Membrane 2.jpg",
         ],
         pricing: [],
         highlights: [],
@@ -86,7 +86,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         ],
         description: {
           heading: "Product Description",
-          image: "/product categories/polysulfone-sem-airfiltration.jpg",
+          image: "/product categories/Polysulfone Nanofiber Membrane 1.jpg",
           paragraphs: [
             "E-Spin Nanotech manufactures high-performance electrospun Polysulfone nanofiber membranes designed for advanced energy and filtration applications. These membranes feature a highly porous nanofibrous structure, excellent thermal stability, and superior chemical resistance, making them ideal for use in battery separators and other high-efficiency systems. Our Polysulfone nanofiber membranes are engineered to deliver enhanced electrolyte uptake, improved ionic conductivity, and reliable mechanical strength, which are critical for next-generation battery technologies.",
             "In addition to energy storage systems, these membranes are also suitable for a wide range of applications, including air filtration, water purification, and sensor technologies, where high surface area and controlled porosity are essential for performance.",
@@ -134,8 +134,10 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         title: "Nylon 6 Nanofiber Membrane",
         subtitle: "Electrospun Nylon 6 (Polyamide 6) Nanofiber Membrane",
         images: [
-          "/product categories/nylon6-sem-1.jpg",
-          "/product categories/nylon6-sem-2.jpg",
+          "/product categories/Nylon 6 Nanofiber Membrane 2.jpg",
+          "/product categories/Nylon 6 Nanofiber Membrane 1.jpg",
+          "/product categories/Nylon 6 Nanofiber Membrane 3.jpg",
+          
         ],
         pricing: [],
         highlights: [],
@@ -148,7 +150,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         ],
         description: {
           heading: "Product Description",
-          image: "/product categories/nylon6-sem-2.jpg",
+          image: "/product categories/Nylon 6 Nanofiber Membrane 2.jpg",
           paragraphs: [
             "E-Spin Nanotech manufactures high-quality electrospun Nylon 6 nanofiber membranes designed for advanced filtration and functional material applications. Nylon 6 (polyamide 6) is a widely used engineering polymer known for its excellent mechanical strength, abrasion resistance, chemical stability, and good thermal properties, making it suitable for durable nanofiber membrane systems.",
             "Electrospun Nylon 6 nanofiber membranes possess high porosity, interconnected pore structure, and ultrafine fibre diameters, which provide excellent permeability and high surface area. These characteristics enable efficient capture of fine particles, making them highly effective for air filtration and liquid filtration applications.",
@@ -197,8 +199,8 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         title: "PAN nanofiber membrane",
         subtitle: "Electrospun PAN (Polyacrylonitrile) Nanofiber Membrane",
         images: [
-          "/product categories/pan-sem-airfiltration.jpg",
-          "/product categories/Air Filtration Membrane.jpeg",
+          "/product categories/PAN nanofiber membrane 1.jpg",
+          "/product categories/PAN nanofiber membrane 2.jpg",
         ],
         pricing: [],
         highlights: [],
@@ -212,7 +214,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         ],
         description: {
           heading: "Product Description",
-          image: "/product categories/pan-sem-airfiltration.jpg",
+          image: "/product categories/PAN nanofiber membrane 1.jpg",
           paragraphs: [
             "E-Spin Nanotech manufactures high-quality electrospun PAN (Polyacrylonitrile) nanofiber membranes designed for advanced filtration, energy, and functional material applications. Polyacrylonitrile is a widely used polymer known for its excellent mechanical strength, chemical resistance, and thermal stability, making it a reliable material for nanofiber membrane fabrication.",
             "Electrospun PAN nanofiber membranes exhibit high porosity, interconnected pore structure, and ultrafine fiber diameter, which provide a large surface area and excellent permeability. These characteristics make them highly effective for air filtration, water purification, and fine particle removal.",
@@ -261,8 +263,8 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         title: "PVA nanofiber membrane",
         subtitle: "Electrospun PVA (Polyvinyl Alcohol) Nanofiber Membrane",
         images: [
-          "/product categories/pva-sem-1.jpg",
-          "/product categories/pva-sem-2.jpg",
+          "/product categories/PVA nanofiber membrane 1.jpg",
+          "/product categories/PVA nanofiber membrane 2.jpg",
         ],
         pricing: [],
         highlights: [],
@@ -275,7 +277,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         ],
         description: {
           heading: "Product Description",
-          image: "/product categories/pva-sem-1.jpg",
+          image: "/product categories/PVA nanofiber membrane 1.jpg",
           paragraphs: [
             "E-Spin Nanotech manufactures advanced electrospun PVA nanofiber membranes designed for a wide range of filtration and functional material applications. Polyvinyl alcohol (PVA) is a water-soluble synthetic polymer known for its excellent film-forming ability, high hydrophilicity, good mechanical properties, and biocompatibility.",
             "Electrospun PVA nanofiber membranes exhibit high porosity, interconnected pore structure, and ultrafine fibre diameter, which provide large surface area and efficient transport properties. These characteristics make them highly suitable for drug delivery, biomedical materials, and functional coatings.",

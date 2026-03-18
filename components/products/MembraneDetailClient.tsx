@@ -172,50 +172,6 @@ function MembraneItemSection({
               transition={{ duration: 0.5, delay: 0.1 }}
               className="space-y-6"
             >
-              {/* <div>
-                <table className="max-w-xs text-sm">
-                  <thead>
-                    <tr>
-                      <th className="font-semibold text-gray-700 border-b-2 border-gray-300 pb-1 px-2 text-left">
-                        MOQ
-                      </th>
-                      <th className="font-semibold text-gray-700 border-b-2 border-gray-300 pb-1 px-2 text-left">
-                        Price
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {item.pricing.map((tier, i) => (
-                      <tr key={i}>
-                        <td className="text-gray-800 py-1.5 px-2 border-b border-gray-100">
-                          {tier.moq}
-                        </td>
-                        <td className="font-medium text-gray-900 py-1.5 px-2 border-b border-gray-100">
-                          {tier.price}
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div> */}
-
-              <ul className="space-y-2">
-                {item.highlights.map((highlight, i) => (
-                  <li
-                    key={i}
-                    className="flex items-start gap-2 text-sm text-gray-700"
-                  >
-                    <span className="mt-1 w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0" />
-                    {highlight}
-                  </li>
-                ))}
-              </ul>
-
-              {/* <div className="flex items-center gap-3 text-sm text-gray-600">
-                <Truck className="w-8 h-8 text-red-600" />
-                <span className="font-medium text-red-700">{item.deliveryTime}</span>
-              </div> */}
-
               <Link
                 href="/contact"
                 className="inline-flex items-center gap-2 bg-black hover:bg-red-700 text-white font-semibold tracking-wider text-sm px-8 py-3 rounded transition-colors"
@@ -223,41 +179,29 @@ function MembraneItemSection({
                 GET FREE QUOTE
                 <ChevronRight className="w-4 h-4" />
               </Link>
+
+              {item.applications && item.applications.length > 0 && (
+                <div>
+                  <h3 className="text-lg font-bold text-gray-900 mb-3">
+                    Key Applications
+                  </h3>
+                  <ul className="space-y-2">
+                    {item.applications.map((app, i) => (
+                      <li
+                        key={i}
+                        className="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-lg px-4 py-2.5"
+                      >
+                        <Check className="w-4 h-4 text-red-600 flex-shrink-0" />
+                        <span className="text-sm text-gray-800">{app}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </motion.div>
           </div>
         </div>
       </section>
-
-      {item.applications && item.applications.length > 0 && (
-        <section className="py-10 md:py-14 bg-white">
-          <div className="max-w-5xl mx-auto px-4">
-            <motion.h3
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-8"
-            >
-              Key Applications
-            </motion.h3>
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-3xl mx-auto"
-            >
-              {item.applications.map((app, i) => (
-                <div
-                  key={i}
-                  className="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-lg px-4 py-3"
-                >
-                  <Check className="w-5 h-5 text-red-600 flex-shrink-0" />
-                  <span className="text-sm text-gray-800">{app}</span>
-                </div>
-              ))}
-            </motion.div>
-          </div>
-        </section>
-      )}
 
       <section className="py-12 md:py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4">
@@ -369,7 +313,7 @@ function MembraneItemSection({
             className="mt-8 max-w-3xl mx-auto"
           >
             <div className="bg-red-700 text-white text-center text-sm font-semibold py-2 rounded-t-lg">
-              Formats
+              Custom Sizes
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 bg-white border border-t-0 border-gray-200 rounded-b-lg p-6">
               {item.specifications.formats.map((fmt, i) => (
