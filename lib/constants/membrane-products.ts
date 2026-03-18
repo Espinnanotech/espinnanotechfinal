@@ -403,12 +403,10 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
       },
       {
         id: "polysulfone",
-        title: "Polysulfone Nanofiber Membrane",
-        subtitle: "Electrospun Polysulfone Nanofiber Membrane",
+        title: "Sulfonated Poly Membrane",
+        subtitle: "Sulfonated Poly (ether ether ketone) (SPEEK) membrane",
         images: [
-          "/product categories/polysulfone-sem-ionexchange.jpg",
-          "/product categories/Air Filtration Membrane.jpeg",
-          "/membrane.jpeg",
+          "/product categories/Sulfonated Poly 1.jpg",
         ],
         pricing: [
           { moq: "550+", price: "$12.34" },
@@ -424,18 +422,17 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         ],
         deliveryTime: "2-4 weeks",
         applications: [
-          "Battery separators for energy storage systems",
-          "Air filtration membranes",
-          "Water filtration and purification",
-          "Sensor and advanced functional materials",
+          "Proton exchange membranes for fuel cells",
+          "Electrochemical energy systems",
+          "Redox flow batteries",
+          "Water treatment and electrodialysis",
+          "Ion-conductive membranes for advanced electrochemical devices",
         ],
         description: {
           heading: "Product Description",
-          image: "/product categories/polysulfone-sem-ionexchange.jpg",
+          image: "/product categories/Sulfonated Poly 1.jpg",
           paragraphs: [
-            "E-Spin Nanotech manufactures high-performance electrospun Polysulfone nanofiber membranes designed for advanced energy and filtration applications. These membranes feature a highly porous nanofibrous structure, excellent thermal stability, and superior chemical resistance, making them ideal for use in battery separators and other high-efficiency systems.",
-            "Our Polysulfone nanofiber membranes are engineered to deliver enhanced electrolyte uptake, improved ionic conductivity, and reliable mechanical strength, which are critical for next-generation battery technologies.",
-            "In addition to energy storage systems, these membranes are also suitable for a wide range of applications, including air filtration, water purification, and sensor technologies, where high surface area and controlled porosity are essential for performance.",
+            "E-Spin Nanotech develops advanced ion-exchange nanofiber membranes using Sulfonated Poly (ether ether ketone) (SPEEK), a high-performance hydrocarbon polymer widely recognized as a cost-effective alternative to perfluorinated ionomers such as Nafion. SPEEK offers excellent thermal stability, strong mechanical properties, and good proton conductivity, making it highly suitable for electrochemical and energy-related applications.", "Through electrospinning technology, SPEEK can be fabricated into ultrafine nanofiber membranes with high surface area and interconnected porous structures. The nanofibrous morphology enhances ion transport pathways and improves electrolyte interaction, contributing to efficient ion exchange and improved membrane performance.", "One of the challenges associated with highly sulfonated SPEEK is excessive swelling in aqueous environments. To address this, SPEEK nanofibers are often integrated into composite membrane architectures where the nanofiber network is combined with a denser, low-swelling polymer matrix. This composite design effectively reduces dimensional swelling while maintaining high ion conductivity and structural stability.", "By combining the advantages of hydrocarbon-based ionomers with advanced nanofiber engineering, SPEEK-based membranes provide a durable, high-performance, and economically attractive solution for modern electrochemical systems.",
           ],
         },
         specifications: {
@@ -487,22 +484,11 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         subtitle: "Electrospun PVA Nanofiber Cosmetic Membrane",
         images: [
           "/product categories/pva-sem-cosmetic.jpg",
-          "/product categories/Air Filtration Membrane.jpeg",
-          "/membrane.jpeg",
+          "/product categories/Cosmetic Membrane.jpeg",
         ],
-        pricing: [
-          { moq: "550+", price: "$12.34" },
-          { moq: "1,100+", price: "$10.56" },
-          { moq: "1,650+", price: "$9.30" },
-          { moq: "3,300+", price: "Negotiable" },
-        ],
-        highlights: [
-          "Worldwide shipping",
-          "Various formats available",
-          "Manufactured in GMP environment",
-          "Expert team of various scientists",
-        ],
-        deliveryTime: "2-4 weeks",
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
         applications: [
           "Facial sheet masks and nano-fibre masks",
           "Under-eye patches and beauty patches",
@@ -520,41 +506,9 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           ],
         },
         specifications: {
-          heading: "PVA Specifications",
-          groups: [
-            {
-              title: "Spinnability Options",
-              color: "blue",
-              items: [
-                { label: "Pure", checked: true },
-                { label: "Blend", checked: true },
-              ],
-            },
-            {
-              title: "Construction",
-              color: "amber",
-              items: [
-                { label: "Free-Standing", checked: true },
-                { label: "On Substrate", checked: true },
-              ],
-            },
-            {
-              title: "Fiber Diameter",
-              color: "blue",
-              value: "100-600 nm",
-            },
-            {
-              title: "Planar Density Range",
-              color: "amber",
-              value: "0.5-13.5 g/m\u00B2",
-            },
-          ],
-          formats: [
-            { label: "Rolls", icon: "roll" },
-            { label: "Sheets (20x30)", icon: "sheet-large" },
-            { label: "Sheets (10x10)", icon: "sheet-small" },
-            { label: "Custom", subtitle: "(e.g. patches, masks)", icon: "custom" },
-          ],
+          heading: "Membrane Specifications",
+          groups: [],
+          formats: [],
         },
       },
       {
@@ -563,22 +517,11 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         subtitle: "Electrospun Cellulose Nanofiber Cosmetic Membrane",
         images: [
           "/product categories/cellulose-sem-cosmetic.jpg",
-          "/product categories/Air Filtration Membrane.jpeg",
-          "/membrane.jpeg",
+          "/product categories/Cosmetic Membrane.jpeg",
         ],
-        pricing: [
-          { moq: "550+", price: "$12.34" },
-          { moq: "1,100+", price: "$10.56" },
-          { moq: "1,650+", price: "$9.30" },
-          { moq: "3,300+", price: "Negotiable" },
-        ],
-        highlights: [
-          "Worldwide shipping",
-          "Various formats available",
-          "Manufactured in GMP environment",
-          "Expert team of various scientists",
-        ],
-        deliveryTime: "2-4 weeks",
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
         applications: [
           "Facial sheet masks and nanofiber masks",
           "Under-eye patches and beauty patches",
@@ -596,41 +539,9 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           ],
         },
         specifications: {
-          heading: "Cellulose Specifications",
-          groups: [
-            {
-              title: "Spinnability Options",
-              color: "blue",
-              items: [
-                { label: "Pure", checked: true },
-                { label: "Blend", checked: true },
-              ],
-            },
-            {
-              title: "Construction",
-              color: "amber",
-              items: [
-                { label: "Free-Standing", checked: true },
-                { label: "On Substrate", checked: true },
-              ],
-            },
-            {
-              title: "Fiber Diameter",
-              color: "blue",
-              value: "100-600 nm",
-            },
-            {
-              title: "Planar Density Range",
-              color: "amber",
-              value: "0.5-13.5 g/m\u00B2",
-            },
-          ],
-          formats: [
-            { label: "Rolls", icon: "roll" },
-            { label: "Sheets (20x30)", icon: "sheet-large" },
-            { label: "Sheets (10x10)", icon: "sheet-small" },
-            { label: "Custom", subtitle: "(e.g. patches, masks)", icon: "custom" },
-          ],
+          heading: "Membrane Specifications",
+          groups: [],
+          formats: [],
         },
       },
     ],
