@@ -248,6 +248,7 @@ function MembraneItemSection({
         </div>
       </section>
 
+      {(item.specifications.groups.length > 0 || item.specifications.formats.length > 0) && (
       <section className="py-12 md:py-16 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-5xl mx-auto px-4">
           <motion.div
@@ -336,6 +337,7 @@ function MembraneItemSection({
           </motion.div>
         </div>
       </section>
+      )}
     </div>
   );
 }
