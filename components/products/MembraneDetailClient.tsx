@@ -47,6 +47,77 @@ export function MembraneDetailClient({
     return { prevPage: prev, nextPage: next, category: cat };
   }, [productPage.id]);
 
+  if (productPage.id === "customizedmembrane") {
+    const item = productPage.items[0];
+    return (
+      <main className="min-h-screen bg-white pt-20">
+        <div className="relative text-center py-16 md:py-20 overflow-hidden">
+          <div className="absolute inset-0">
+            <Image
+              src="/membrane-header-bg.jpeg"
+              alt="Nanofiber membrane background"
+              fill
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 bg-black/50" />
+          </div>
+          <h1 className="relative z-10 text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
+            {productPage.pageTitle}
+          </h1>
+        </div>
+
+        <section className="py-16 md:py-20 bg-white">
+          <div className="max-w-3xl mx-auto px-6">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="space-y-6 text-gray-700 text-base md:text-[16px] leading-relaxed"
+            >
+              <p>{item.description.paragraphs[0]}</p>
+              <div>
+                <p className="mb-3">{item.description.paragraphs[1]}</p>
+                <ul className="space-y-2 ml-4">
+                  {item.applications?.map((app, i) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <span className="mt-1.5 w-2 h-2 rounded-full bg-red-600 flex-shrink-0" />
+                      <span>{app}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <p>{item.description.paragraphs[2]}</p>
+            </motion.div>
+          </div>
+        </section>
+
+        <div className="fixed bottom-8 left-8 flex gap-4 z-50">
+          {prevPage && (
+            <button
+              onClick={() => router.push(`/products/${category}/${prevPage.id}`)}
+              className="bg-black/80 hover:bg-black text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
+              aria-label={`Previous: ${prevPage.title}`}
+              title={prevPage.title}
+            >
+              <ArrowLeft className="h-6 w-6" />
+            </button>
+          )}
+          {nextPage && (
+            <button
+              onClick={() => router.push(`/products/${category}/${nextPage.id}`)}
+              className="bg-black/80 hover:bg-black text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
+              aria-label={`Next: ${nextPage.title}`}
+              title={nextPage.title}
+            >
+              <ArrowRight className="h-6 w-6" />
+            </button>
+          )}
+        </div>
+      </main>
+    );
+  }
+
   return (
     <main className="min-h-screen bg-white pt-20">
       <div className="relative text-center py-16 md:py-20 overflow-hidden">
