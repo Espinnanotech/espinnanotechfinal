@@ -4,6 +4,7 @@ import { Menu as MenuIcon, Search } from "lucide-react";
 import { Menu } from "./Menu";
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -41,14 +42,16 @@ export function Header() {
         </button>
 
         {/* Optimized Image */}
-        <Image
-          src="/videos/logo.png"
-          alt="Logo"
-          width={200}
-          height={40}
-          className="object-contain hidden md:block"
-          priority
-        />
+        <Link href="/">
+          <Image
+            src="/videos/logo.png"
+            alt="Logo"
+            width={200}
+            height={40}
+            className="object-contain hidden md:block"
+            priority
+          />
+        </Link>
       </div>
       
       {/* Mobile Menu */}
