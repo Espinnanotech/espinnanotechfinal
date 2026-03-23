@@ -6,11 +6,7 @@ import { Cover } from "@/components/ui/cover";
 
 const VIDEOS = [
   "/videos/landing video sample2.mov",
-  "/videos/landing video simple.mp4",
-  "/videos/landing video simple1.mp4",
-  "/videos/landingvid2.mp4",
-  "/videos/electro spinning.mp4",
-  "/videos/spining tech.mp4",
+  "/videos/download.mp4",
 ];
 
 // Updated to remove reliance on empty `number` field
@@ -44,7 +40,7 @@ export function HeroSection() {
         muted
         playsInline
         onEnded={handleEnded}
-        className="absolute inset-0 w-full h-full object-cover z-0"
+        className="absolute inset-0 w-full h-full object-fill z-0"
       >
         <source src={VIDEOS[currentIndex]} type="video/mp4" />
       </video>
