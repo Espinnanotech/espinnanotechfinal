@@ -15,6 +15,7 @@ export function Menu({ isOpen, onClose }: MenuProps) {
   const router = useRouter();
   const [isAboutExpanded, setIsAboutExpanded] = useState(false);
   const [isMediaExpanded, setIsMediaExpanded] = useState(false);
+  const [isPublicationsExpanded, setIsPublicationsExpanded] = useState(false);
 
   const handleNavigation = (path: string) => {
     router.push(path);
@@ -156,12 +157,38 @@ export function Menu({ isOpen, onClose }: MenuProps) {
               </div>
             </li>
             <li>
-              <button 
-                onClick={() => handleNavigation("/publications")}
-                className="w-full text-left p-2 hover:bg-black/5 rounded-lg transition-colors"
-              >
-                Publications
-              </button>
+              <div className="relative">
+                <button
+                  onClick={() => setIsPublicationsExpanded(!isPublicationsExpanded)}
+                  className="w-full text-left p-2 hover:bg-black/5 rounded-lg transition-colors flex justify-between items-center"
+                >
+                  Publications
+                  <ChevronRight className={cn(
+                    "h-4 w-4 transition-transform",
+                    isPublicationsExpanded ? "rotate-90" : ""
+                  )} />
+                </button>
+                {isPublicationsExpanded && (
+                  <ul className="pl-4 mt-2 space-y-2">
+                    <li>
+                      <button
+                        onClick={() => handleNavigation("/publications")}
+                        className="w-full text-left p-2 hover:bg-black/5 rounded-lg transition-colors text-sm"
+                      >
+                        All Publications
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={() => handleNavigation("/publications/granted-patents")}
+                        className="w-full text-left p-2 hover:bg-black/5 rounded-lg transition-colors text-sm"
+                      >
+                        Granted Patents
+                      </button>
+                    </li>
+                  </ul>
+                )}
+              </div>
             </li>
             <li>
               <button 
