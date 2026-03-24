@@ -752,7 +752,7 @@ const PUBLICATIONS: Publication[] = [
     "link": "https://www.nature.com/articles/s41565-023-01596-9"
   },
   {
-    "id": 41,
+    "id": 42,
     "year": 2024,
     "title": "A quantum sensor for atomic-scale electric and magnetic fields",
     "authors": [
@@ -766,7 +766,7 @@ const PUBLICATIONS: Publication[] = [
     "link": "https://www.nature.com/articles/s41565-024-01724-z"
   },
   {
-    "id": 42,
+    "id": 43,
     "year": 2024,
     "title": "Tunable topological phases in nanographene-based spin-1/2 alternating-exchange Heisenberg chains",
     "authors": [
@@ -784,7 +784,7 @@ const PUBLICATIONS: Publication[] = [
     "link": "https://www.nature.com/articles/s41565-024-01805-z"
   },
   {
-    "id": 43,
+    "id": 44,
     "year": 2024,
     "title": "Third-order exceptional line in a nitrogen-vacancy spin system",
     "authors": [
@@ -801,7 +801,7 @@ const PUBLICATIONS: Publication[] = [
     "link": "https://www.nature.com/articles/s41565-023-01583-0"
   },
   {
-    "id": 44,
+    "id": 45,
     "year": 2024,
     "title": "Enhanced Oxygen Evolution and Zinc-Air Battery Performance via Electronic Spin Modulation in Heterostructured Catalysts",
     "authors": [
@@ -821,7 +821,7 @@ const PUBLICATIONS: Publication[] = [
     "link": "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202400572"
   },
   {
-    "id": 45,
+    "id": 46,
     "year": 2024,
     "title": "Seed Quality Enhancement Through Analyte-Infused Electrospun Microcapsules in Maize",
     "authors": [
@@ -834,7 +834,7 @@ const PUBLICATIONS: Publication[] = [
     "link": "https://link.springer.com/article/10.1007/s00344-024-11244-8"
   },
   {
-    "id": 46,
+    "id": 47,
     "year": 2024,
     "title": "Local control of polarization and geometric phase in thermal metasurfaces",
     "authors": [
@@ -845,7 +845,7 @@ const PUBLICATIONS: Publication[] = [
     "link": "https://www.nature.com/articles/s41565-024-01763-6"
   },
   {
-    "id": 47,
+    "id": 48,
     "year": 2024,
     "title": "Construction of topological quantum magnets from atomic spins on surfaces",
     "authors": [
@@ -859,7 +859,7 @@ const PUBLICATIONS: Publication[] = [
     "link": "https://www.nature.com/articles/s41565-024-01775-2"
   },
   {
-    "id": 48,
+    "id": 49,
     "year": 2024,
     "title": "Toroidic phase transitions in a direct-kagome artificial spin ice",
     "authors": [
@@ -880,7 +880,7 @@ const PUBLICATIONS: Publication[] = [
     "link": "https://www.nature.com/articles/s41565-024-01666-6"
   },
   {
-    "id": 49,
+    "id": 50,
     "year": 2024,
     "title": "Giant spin Hall effect in AB-stacked MoTe2/WSe2 bilayers",
     "authors": [
@@ -899,7 +899,7 @@ const PUBLICATIONS: Publication[] = [
     "link": "https://www.nature.com/articles/s41565-023-01492-2"
   },
   {
-    "id": 50,
+    "id": 51,
     "year": 2024,
     "title": "Deterministic switching of perpendicular magnetization by out-of-plane anti-damping magnon torques",
     "authors": [
@@ -917,7 +917,7 @@ const PUBLICATIONS: Publication[] = [
     "link": "https://www.nature.com/articles/s41565-024-01741-y"
   },
   {
-    "id": 51,
+    "id": 52,
     "year": 2024,
     "title": "Shared control of a 16 semiconductor quantum dot crossbar array",
     "authors": [
@@ -935,7 +935,7 @@ const PUBLICATIONS: Publication[] = [
     "link": "https://www.nature.com/articles/s41565-023-01491-3"
   },
   {
-    "id": 52,
+    "id": 53,
     "year": 2024,
     "title": "Spontaneous broken-symmetry insulator and metals in tetralayer rhombohedral graphene",
     "authors": [
@@ -956,7 +956,7 @@ const PUBLICATIONS: Publication[] = [
     "link": "https://www.nature.com/articles/s41565-023-01558-1"
   },
   {
-    "id": 53,
+    "id": 54,
     "year": 2024,
     "title": "Reversible optical data storage below the diffraction limit",
     "authors": [
@@ -967,7 +967,7 @@ const PUBLICATIONS: Publication[] = [
   },
   
   {
-    id: 54,
+    id: 55,
     year: 2023,
     title: "Structurally stable polyvinyl alcohol/sodium alginate-based optimally designed electrospun mats as mechanistically robust controlled-urea-release systems",
     authors: [
@@ -978,7 +978,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0926669022017034"
   },
   {
-    id: 55,
+    id: 56,
     year: 2023,
     title: "Facile synthesis of electrospun antibacterial bioactive glass based micronanofibre (ABGmnf) for exalted wound healing: In vitro and in vivo studies",
     authors: [
@@ -994,7 +994,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0254058423005825"
   },
   {
-    id: 56,
+    id: 57,
     year: 2023,
     title: "A combinatorial approach to the elastic response of electrospun mats: Architectural framework and single fiber properties",
     authors: [
@@ -1011,7 +1011,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0167663622002484"
   },
   {
-    id: 57,
+    id: 58,
     year: 2023,
     title: "Thermally crosslinked electrospun nanofibrous mat from chrome-tanned solid wastes for cationic dye adsorption in wastewater treatment",
     authors: [
@@ -1025,7 +1025,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/pii/S2666790823000265"
   },
   {
-    id: 58,
+    id: 59,
     year: 2023,
     title: "Structurally stable and surface-textured polylactic acid/copolymer/poly (?-caprolactone) blend-based electrospun constructs with tunable hydroxyapatite responsiveness",
     authors: [
@@ -1039,7 +1039,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0927776522006531"
   },
   {
-    id: 59,
+    id: 60,
     year: 2023,
     title: "Immobilization and Release of Platelet-Rich Plasma from Modified Nanofibers Studied by Advanced X-ray Photoelectron Spectroscopy Analyses",
     authors: [
@@ -1057,7 +1057,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.researchgate.net/publication/369235399_Immobilization_and_Release_of_Platelet-Rich_Plasma_from_Modified_Nanofibers_Studied_by_Advanced_X-ray_Photoelectron_Spectroscopy_Analyses"
   },
   {
-    id: 60,
+    id: 61,
     year: 2023,
     title: "PRP of T2DM Patient Immobilized on PCL Nanofibers Stimulate Endothelial Cells Proliferation",
     authors: [
@@ -1070,7 +1070,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.mdpi.com/1422-0067/24/9/8262"
   },
   {
-    id: 61,
+    id: 62,
     year: 2023,
     title: "Evaluation of cashew gum-polyvinyl alcohol (CG-PVA) electrospun nanofiber mat for scarless wound healing in a murine model",
     authors: [
@@ -1080,7 +1080,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0141813023013119"
   },
   {
-    id: 62,
+    id: 63,
     year: 2022,
     title: "Investigation of the performance of dual-layered omniphobic electrospun nanofibrous membranes for direct contact membrane distillation",
     authors: [
@@ -1091,7 +1091,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S2213343722015342"
   },
   {
-    id: 63,
+    id: 64,
     year: 2022,
     title: "Fabrication and evaluation of multifunctional agarose based electrospun scaffolds for cutaneous wound repairs",
     authors: [
@@ -1102,7 +1102,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/term.3308"
   },
   {
-    id: 64,
+    id: 65,
     year: 2022,
     title: "Polycaprolactone assisted electrospinning of honey/betel with chitosan for tissue engineering",
     authors: [
@@ -1115,7 +1115,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S2214785322014109"
   },
   {
-    id: 65,
+    id: 66,
     year: 2022,
     title: "Intermittent scavenging of storage lesion from stored red blood cells by electrospun nanofibrous sheets enhances their quality and shelf-life",
     authors: [
@@ -1130,7 +1130,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.nature.com/articles/s41467-022-35269-3"
   },
   {
-    id: 66,
+    id: 67,
     year: 2022,
     title: "Electrospinning of poly(?-caprolactone) (PCL) and poly ethylene glycol (PEG) composite nanofiber membranes using methyl ethyl ketone (MEK) and N N’-dimethyl acetamide (DMAc) solvent mixture for anti-adhesion applications",
     authors: [
@@ -1140,7 +1140,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S2352492822015598"
   },
   {
-    id: 67,
+    id: 68,
     year: 2022,
     title: "Development of the Next-Generation Biomimetic Lower Extremity Bypass Graft for the Treatment of Peripheral Artery Disease",
     authors: [
@@ -1150,7 +1150,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.proquest.com/openview/e2a181c773a8e1bbeb8cf44abef14eec/1?pq-origsite=gscholar&cbl=18750&diss=y"
   },
   {
-    id: 68,
+    id: 69,
     year: 2022,
     title: "Ibuprofen loaded electrospun polymeric nanofibers: A strategy to improve oral absorption",
     authors: [
@@ -1162,7 +1162,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.researchgate.net/publication/362187429_Ibuprofen_Loaded_Electrospun_Polymeric_Nanofibers_A_Strategy_to_Improve_Oral_Absorption"
   },
   {
-    id: 69,
+    id: 70,
     year: 2022,
     title: "Designing suture-proof cell-attachable copolymer-mediated and curcumin- ?-cyclodextrin inclusion complex loaded aliphatic polyester-based electrospun antibacterial constructs",
     authors: [
@@ -1176,7 +1176,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0141813022014179"
   },
   {
-    id: 70,
+    id: 71,
     year: 2022,
     title: "P(VDF-TrFE)/ZnO nanocomposite synthesized by electrospinning: effect of ZnO nanofiller on physical, mechanical, thermal, rheological and piezoelectric properties",
     authors: [
@@ -1186,7 +1186,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.researchgate.net/publication/361021666_PVDF-TrFEZnO_nanocomposite_synthesized_by_electrospinning_effect_of_ZnO_nanofiller_on_physical_mechanical_thermal_rheological_and_piezoelectric_properties"
   },
   {
-    id: 71,
+    id: 72,
     year: 2022,
     title: "Synthesis and Characterization of Novel Poly(Vinylidene Fluoride)-Melamine Electrospun Nanofibers: An Extensive Analysis on Mechanical and Thermal Behavior",
     authors: [
@@ -1203,7 +1203,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://link.springer.com/article/10.1007/s11665-022-07067-x"
   },
   {
-    id: 72,
+    id: 73,
     year: 2022,
     title: "Thin-film nanofibers for treatment of age-related macular degeneration",
     authors: [
@@ -1214,7 +1214,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/pii/S2352952022000603"
   },
   {
-    id: 73,
+    id: 74,
     year: 2022,
     title: "Easy fabrication of a novel electro-spun PVDF-g-C3N4-Pd nanocomposite material as improved anode electrocatalyst for direct alcohol fuel cell",
     authors: [
@@ -1228,7 +1228,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S001623612201345X"
   },
   {
-    id: 74,
+    id: 75,
     year: 2022,
     title: "Coaxial Electrospun Nanofibrous Membranes for Enhanced Water Recovery by Direct Contact Membrane Distillation",
     authors: [
@@ -1239,7 +1239,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.mdpi.com/2073-4360/14/24/5350"
   },
   {
-    id: 75,
+    id: 76,
     year: 2022,
     title: "Utilizing Strain-Engineered Stable Halide Perovskite for Interfacial Interaction with Molecular Dipoles To Enhance Ferroelectric Switching and Piezoresponse in Polymer Composite Nanofibers",
     authors: [
@@ -1252,7 +1252,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.2c02556"
   },
   {
-    id: 76,
+    id: 77,
     year: 2022,
     title: "Copper and cobalt doped bioactive glass-fish dermal collagen electrospun mat triggers key events of diabetic wound healing in full-thickness skin defect model",
     authors: [
@@ -1268,7 +1268,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S1751616122003204"
   },
   {
-    id: 77,
+    id: 78,
     year: 2022,
     title: "Polycaprolactone assisted electrospinning of honey/betel with chitosan for tissue engineering",
     authors: [
@@ -1281,7 +1281,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S2214785322014109"
   },
   {
-    id: 78,
+    id: 79,
     year: 2022,
     title: "Synthesis and characterizations of sugar-glass nanoparticles mediated protein delivery system for tissue engineering application",
     authors: [
@@ -1293,7 +1293,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://iopscience.iop.org/article/10.1088/2399-1984/ac7832/meta"
   },
   {
-    id: 79,
+    id: 80,
     year: 2022,
     title: "Hesperetin-loaded polymeric nanofibers: assessment of bioavailability and neuroprotective effect",
     authors: [
@@ -1303,7 +1303,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.tandfonline.com/doi/abs/10.1080/03639045.2023.2201625"
   },
   {
-    id: 80,
+    id: 81,
     year: 2022,
     title: "An integrated Nanofiltration-Membrane Distillation (NF-MD) process for the treatment of emulsified wastewater",
     authors: [
@@ -1314,7 +1314,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.tandfonline.com/doi/abs/10.1080/01496395.2022.2131578"
   },
   {
-    id: 81,
+    id: 82,
     year: 2022,
     title: "Engineering Vascularizing Electrospun Dermal Grafts by Integrating Fish Collagen and Ion-Doped Bioactive Glass",
     authors: [
@@ -1328,7 +1328,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://pubs.acs.org/doi/abs/10.1021/acsbiomaterials.1c01098"
   },
   {
-    id: 82,
+    id: 83,
     year: 2021,
     title: "BiVO4 nanofiber-based field-effect transistors for detection of epinephrine/adrenaline hormones",
     authors: [
@@ -1338,7 +1338,7 @@ const PUBLICATIONS: Publication[] = [
     link: "/"
   },
   {
-    id: 83,
+    id: 84,
     year: 2021,
     title: "Metal oxide heterostructure decorated carbon nanofiber as a novel redox catalyst for high performance Lithium-Sulfur batteries",
     authors: [
@@ -1350,7 +1350,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0169433221021115"
   },
   {
-    id: 84,
+    id: 85,
     year: 2021,
     title: "Excellent electrochemical performance of Lithium-sulfur batteries via self-standing cathode from interwoven ?-Fe2O3 integrated carbon nanofiber networks",
     authors: [
@@ -1363,7 +1363,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S1572665720310584"
   },
   {
-    id: 85,
+    id: 86,
     year: 2021,
     title: "Nanotechnology-Assisted, Single-Chromophore-Based White-Light-Emitting Organic Materials with Bioimaging Properties",
     authors: [
@@ -1374,20 +1374,6 @@ const PUBLICATIONS: Publication[] = [
       "Govindasamy Jayamurugan",
     ],
     link: "https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.1c02797"
-  },
-  {
-    id: 86,
-    year: 2021,
-    title: "An efficient amperometric sensor for chloride ion detection through electroactive e-spun PVA-PANi-g-C3N4 nanofiber",
-    authors: [
-      "Bavatharani Chokkiah",
-      "Muthusankar Eswaran",
-      "Saikh Mohammad Wabaidur",
-      "Zeid A Alothman",
-      "Soo Chool LeeRagupathy",
-      "Dhanusuraman",
-    ],
-    link: "https://www.researchgate.net/publication/356429573_An_efficient_amperometric_sensor_for_chloride_ion_detection_through_electroactive_e-spun_PVA-PANi-g-C3N4_nanofiber"
   },
   {
     id: 87,
@@ -1406,6 +1392,20 @@ const PUBLICATIONS: Publication[] = [
   {
     id: 88,
     year: 2021,
+    title: "An efficient amperometric sensor for chloride ion detection through electroactive e-spun PVA-PANi-g-C3N4 nanofiber",
+    authors: [
+      "Bavatharani Chokkiah",
+      "Muthusankar Eswaran",
+      "Saikh Mohammad Wabaidur",
+      "Zeid A Alothman",
+      "Soo Chool LeeRagupathy",
+      "Dhanusuraman",
+    ],
+    link: "https://www.researchgate.net/publication/356429573_An_efficient_amperometric_sensor_for_chloride_ion_detection_through_electroactive_e-spun_PVA-PANi-g-C3N4_nanofiber"
+  },
+  {
+    id: 89,
+    year: 2021,
     title: "Understanding release kinetics and collapse proof suture retention response of curcumin loaded electrospun mats based on aliphatic polyesters and their blends",
     authors: [
       "Deepika Sharma",
@@ -1414,7 +1414,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S1751616121002393"
   },
   {
-    id: 89,
+    id: 90,
     year: 2021,
     title: "Fabrication and characterization of electrospun psyllium husk-based nanofibers for tissue regeneration",
     authors: [
@@ -1428,7 +1428,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/app.50569"
   },
   {
-    id: 90,
+    id: 91,
     year: 2021,
     title: "Physicomechanical performance and encapsulation efficiency of ?-cyclodextrin loaded functional electrospun mats based on aliphatic polyesters and their blends",
     authors: [
@@ -1438,7 +1438,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.tandfonline.com/doi/abs/10.1080/09205063.2021.1925393"
   },
   {
-    id: 91,
+    id: 92,
     year: 2021,
     title: "Electrospun chitosan/polycaprolactone-hyaluronic acid bilayered scaffold for potential wound healing applications",
     authors: [
@@ -1452,7 +1452,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0141813018304008"
   },
   {
-    id: 92,
+    id: 93,
     year: 2021,
     title: "Bone tissue engineering construct fabricated using a cell electrospinning technique with polyglutamic acid biopolymer",
     authors: [
@@ -1463,7 +1463,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://link.springer.com/article/10.1007/s10965-021-02612-z"
   },
   {
-    id: 93,
+    id: 94,
     year: 2020,
     title: "Fabrication and invitro evaluation of electrospun gum ghatti-polyvinyl alcohol polymeric blend green nanofibre mat (GG-PVA NFM) as a novel material for polymeric scaffolds in wound healing",
     authors: [
@@ -1474,7 +1474,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0142941820320559"
   },
   {
-    id: 94,
+    id: 95,
     year: 2020,
     title: "A high energy density and high rate capability flexible supercapacitor based on electro-spun highly porous SnO2@carbon nanofibers",
     authors: [
@@ -1486,7 +1486,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://pubs.rsc.org/en/content/articlelanding/2020/TA/D0TA04355A"
   },
   {
-    id: 95,
+    id: 96,
     year: 2020,
     title: "Flexible lead-free PVDF/SM-KNN electrospun nanocomposite based piezoelectric materials: Significant enhancement of energy harvesting efficiency of the nanogenerator",
     authors: [
@@ -1496,7 +1496,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0360544220304928"
   },
   {
-    id: 96,
+    id: 97,
     year: 2020,
     title: "Polymer-Derived Electrospun Co3O4@C Porous Nanofiber Network for Flexible, High-Performance, and Stable Supercapacitors",
     authors: [
@@ -1509,7 +1509,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://pubs.acs.org/doi/abs/10.1021/acsaem.0c01955"
   },
   {
-    id: 97,
+    id: 98,
     year: 2020,
     title: "On 3D Printing of Architected PLA-PLA Nanofiber-Based Biomedical Scaffolds",
     authors: [
@@ -1519,7 +1519,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://link.springer.com/article/10.1007/s40009-023-01261-8"
   },
   {
-    id: 98,
+    id: 99,
     year: 2020,
     title: "Honey-incorporated nanofibre reduces replicative senescence of umbilical cord-derived mesenchymal stem cells",
     authors: [
@@ -1531,7 +1531,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-nbt.2019.0288"
   },
   {
-    id: 99,
+    id: 100,
     year: 2019,
     title: "Dielectric and conductivity investigation of polycarbonate-copper phthalocyanine electrospun nonwoven fibres for electrical and electronic application",
     authors: [
@@ -1544,7 +1544,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.researchgate.net/publication/333693492_Dielectric_and_conductivity_investigation_of_polycarbonate-copper_phthalocyanine_electrospun_nonwoven_fibres_for_electrical_and_electronic_application"
   },
   {
-    id: 100,
+    id: 101,
     year: 2019,
     title: "Bio-inspired superhydrophobic and superoleophilic nanofibrous membranes for non-aqueous solvent and oil separation from water",
     authors: [
@@ -1555,7 +1555,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S1383586618321361"
   },
   {
-    id: 101,
+    id: 102,
     year: 2019,
     title: "Mechanical Properties of Aliphatic Polyester-Based Structurally Engineered Composite Patches",
     authors: [
@@ -1565,7 +1565,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/masy.201800153"
   },
   {
-    id: 102,
+    id: 103,
     year: 2019,
     title: "Morphological and Electrical Characterization ofPolyacrylonitrile Nanofibers Synthesized UsingElectrospinning Method for Electrical Application",
     authors: [
@@ -1577,7 +1577,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.researchgate.net/publication/333867675_Morphological-and-Electrical-Characterization-of-Polyacrylonitrile-Nanofibers-Synthesized-Using-Electrospinning-Method-for-Electrical-Application"
   },
   {
-    id: 103,
+    id: 104,
     year: 2019,
     title: "Injectable PLCL/gelatin core-shell nanofibers support noninvasive 3D delivery of stem cells",
     authors: [
@@ -1587,7 +1587,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0378517319306106"
   },
   {
-    id: 104,
+    id: 105,
     year: 2019,
     title: "Selective Cell Adhesion on Peptide–Polymer Electrospun Fiber Mats",
     authors: [
@@ -1602,7 +1602,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://pubs.acs.org/doi/full/10.1021/acsomega.8b03494"
   },
   {
-    id: 105,
+    id: 106,
     year: 2019,
     title: "Adhesion strength and viscoelastic properties of polydimethylsiloxane (PDMS) based elastomeric nanocomposites with embedded electrospun nanofibers",
     authors: [
@@ -1615,7 +1615,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://pubs.rsc.org/en/content/articlelanding/2019/sm/c9sm00533a/unauth"
   },
   {
-    id: 106,
+    id: 107,
     year: 2019,
     title: "Fabrication of Electrospun Polycaprolactone/GelatinComposite Nanofibrous Scaffolds with Cellular Responses",
     authors: [
@@ -1627,7 +1627,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.researchgate.net/publication/338394136_Fabrication_of_Electrospun_PolycaprolactoneGelatin_Composite_Nanofibrous_Scaffolds_with_Cellular_Responses"
   },
   {
-    id: 107,
+    id: 108,
     year: 2011,
     title: "Cellular interactions with biodegradable polyurethanes formulated from L-tyrosine",
     authors: [
@@ -1636,7 +1636,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://journals.sagepub.com/doi/10.1177/0885328211432325?icid=int.sj-abstract.similar-articles.1"
   },
   {
-    id: 108,
+    id: 109,
     year: 2010,
     title: "Biomimetic algal polysaccharide coated 3D nanofibrous scaffolds promote skin extracellular matrix formation",
     authors: [
@@ -1648,7 +1648,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/pii/S0928493120334986"
   },
   {
-    id: 109,
+    id: 110,
     year: 2010,
     title: "Microfibers of fish waste-derived collagen and ion-doped bioactive glass in stimulating the healing sequences in full-thickness cutaneous burn injury",
     authors: [
@@ -1662,7 +1662,7 @@ const PUBLICATIONS: Publication[] = [
     link: "https://www.sciencedirect.com/science/article/abs/pii/S1773224723002812"
   },
   {
-    id: 110,
+    id: 111,
     year: 2010,
     title: "Enhanced carrier separation assisted high-performance piezo-phototronic self-powered photodetector based on core-shell ZnSnO3 @In2O3 heterojunction",
     authors: [
