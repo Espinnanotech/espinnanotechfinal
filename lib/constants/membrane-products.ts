@@ -584,6 +584,40 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
       },
     ],
   },
+  
+    biomedicalapplication: {
+    id: "biomedicalapplication",
+    pageTitle: "Biomedical Application",
+    items: [
+      {
+        id: "PUstentcoating",
+        title: "PU Stent Coating for Relysis Medical Device",
+        subtitle: "",
+        images: [
+          "/product categories/PVA Cosmetic Membrane.jpg",
+          "/product categories/PVA Cosmetic Membrane 2.jpg",
+
+        ],
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
+        applications: [],
+        description: {
+          heading: "Product Description",
+          image: "/product categories/PVA Cosmetic Membrane.jpg",
+          paragraphs: [
+            "Research was conducted on polyurethane (PU) nanofiber membrane coating for cardiovascular stents developed for Relysis Medical Devices. The nanofiber coating enhances biocompatibility, improves drug delivery capability, and reduces the risk of thrombosis. This advanced coating technology supports better endothelial cell growth and long-term implant performance.",
+          ],
+        },
+        specifications: {
+          heading: "Membrane Specifications",
+          groups: [],
+          formats: [],
+        },
+      },
+      
+    ],
+  },
 };
 
 export interface MembraneProductPage {

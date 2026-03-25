@@ -43,6 +43,13 @@ export const SUBCATEGORIES = {
       description: "The membrane can be customized for protection from Electrostatic Discharge (ESD), Electromagnetic Interface (EMI), and Radio Frequency Interface (RFI). This can be achieved by the use of foil, transparent film, or printed screens. This shielding improves the lifespan of the devices and makes it more safe and reliable.",
       image: "/product categories/Customized Membrane.jpeg",
       features: []
+    },
+    {
+      id: "biomedicalapplication",
+      title: "Biomedical Application",
+      description: "The membrane can be customized for protection from Electrostatic Discharge (ESD), Electromagnetic Interface (EMI), and Radio Frequency Interface (RFI). This can be achieved by the use of foil, transparent film, or printed screens. This shielding improves the lifespan of the devices and makes it more safe and reliable.",
+      image: "/product categories/biomedical application.jpg",
+      features: []
     }
   ],
   nanofiberfunctionalproducts: [
