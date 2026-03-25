@@ -55,37 +55,37 @@ export const SUBCATEGORIES = {
   nanofiberfunctionalproducts: [
     {
       id: "airpurifier",
-      title: "Air Purifier",
-      description: "High-efficiency nanofiber-based air purifiers designed to remove ultrafine particles, allergens, and pollutants from indoor environments with superior filtration performance.",
-      image: "/product categories/functional product.jpg",
+      title: "Room Air Purifier",
+      description: "Our nanofiber-based room air purifiers deliver superior air filtration by capturing ultrafine particles, allergens, bacteria, and pollutants. The advanced nanofiber membrane provides high filtration efficiency with low airflow resistance, ensuring clean and healthy indoor air. Ideal for homes, offices, and healthcare environments requiring reliable air purification.",
+      image: "/functional p image/Room Air Purifier 1.jpg",
       features: ["HEPA Grade Filtration", "Low Pressure Drop", "Long Service Life"]
     },
     {
       id: "bmwfilter",
       title: "BMW Filter",
       description: "Premium automotive cabin and engine air filters using advanced nanofiber technology for enhanced particle capture and extended filter life in BMW vehicles.",
-      image: "/product categories/functional product.jpg",
+      image: "/functional p image/BMW Cabin Air Filter 1.jpg",
       features: ["Automotive Grade", "High Dust Holding", "OEM Compatible"]
     },
     {
       id: "dustcollector",
       title: "Dust Collector",
       description: "Industrial-grade nanofiber dust collection filters engineered for high-efficiency particulate removal in manufacturing, woodworking, and heavy industry environments.",
-      image: "/product categories/functional product.jpg",
+      image: "/functional p image/Filters for Dust Collector 1.png",
       features: ["Industrial Grade", "High Efficiency", "Self-Cleaning"]
     },
     {
       id: "hvac",
       title: "HVAC",
       description: "Nanofiber HVAC filtration solutions providing superior air quality in commercial and residential heating, ventilation, and air conditioning systems.",
-      image: "/product categories/functional product.jpg",
+      image: "/functional p image/HVAC Filters 1.jpg",
       features: ["Energy Efficient", "Extended Life", "Low Resistance"]
     },
     {
       id: "cleanroomairfilter",
       title: "Clean Room Air Filter",
       description: "Ultra-high-efficiency nanofiber filters for cleanroom environments, meeting stringent ISO standards for particle-free air in pharmaceutical, semiconductor, and biotech facilities.",
-      image: "/product categories/functional product.jpg",
+      image: "/functional p image/Clean Room Air Filter 1.png",
       features: ["ISO Compliant", "ULPA Grade", "Contamination Free"]
     },
   ],
