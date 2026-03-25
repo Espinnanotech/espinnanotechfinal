@@ -585,26 +585,32 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
     ],
   },
   
-    biomedicalapplication: {
+  biomedicalapplication: {
     id: "biomedicalapplication",
     pageTitle: "Biomedical Application",
     items: [
       {
         id: "PUstentcoating",
         title: "PU Stent Coating for Relysis Medical Device",
-        subtitle: "",
+        subtitle: "Research Work Carried Out at Our Innovation Centre",
         images: [
-          "/product categories/PVA Cosmetic Membrane.jpg",
-          "/product categories/PVA Cosmetic Membrane 2.jpg",
-
+          "/biomedical image/PU Stent Coating 2.jpg",
+          "/biomedical image/PU Stent Coating 1.jpg",
+          
         ],
         pricing: [],
         highlights: [],
         deliveryTime: "",
-        applications: [],
+        applications: [
+          "Cardiovascular stent biocompatibility enhancement",
+          "Drug delivery via nanofiber coating",
+          "Thrombosis risk reduction",
+          "Endothelial cell growth support",
+          "Long-term implant performance improvement",
+        ],
         description: {
-          heading: "Product Description",
-          image: "/product categories/PVA Cosmetic Membrane.jpg",
+          heading: "Research Overview",
+          image: "/biomedical image/PU Stent Coating 2.jpg",
           paragraphs: [
             "Research was conducted on polyurethane (PU) nanofiber membrane coating for cardiovascular stents developed for Relysis Medical Devices. The nanofiber coating enhances biocompatibility, improves drug delivery capability, and reduces the risk of thrombosis. This advanced coating technology supports better endothelial cell growth and long-term implant performance.",
           ],
@@ -615,7 +621,220 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
           formats: [],
         },
       },
-      
+      {
+        id: "cardiovascular-nanofiber-tube",
+        title: "Cardiovascular Nanofiber Tube for Implants",
+        subtitle: "Research Work Carried Out at Our Innovation Centre",
+        images: [
+          "/biomedical image/Cardiovascular Nanofiber 1.jpg",
+          "/biomedical image/Cardiovascular Nanofiber 2.jpg",
+          "/biomedical image/Cardiovascular Nanofiber 3.png",
+        ],
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
+        applications: [
+          "Vascular grafts",
+          "Implantable cardiovascular devices",
+          "Regenerative medicine scaffolds",
+          "Blood vessel mimicry structures",
+        ],
+        description: {
+          heading: "Research Overview",
+          image: "/biomedical image/Cardiovascular Nanofiber 1.jpg",
+          paragraphs: [
+            "Nanofiber-based cardiovascular tubes were developed using advanced electrospinning techniques to mimic the structure of natural blood vessels. These tubular nanofiber scaffolds provide excellent flexibility, biocompatibility, and mechanical strength, making them suitable for vascular grafts and implantable cardiovascular devices used in regenerative medicine.",
+          ],
+        },
+        specifications: {
+          heading: "Membrane Specifications",
+          groups: [],
+          formats: [],
+        },
+      },
+      {
+        id: "pla-nanofiber-patches",
+        title: "PLA Nanofiber Patches for Meril Life Science",
+        subtitle: "Research Work Carried Out at Our Innovation Centre",
+        images: [
+          "/biomedical image/PLA Nanofiber Patches 1.jpg",
+          "/biomedical image/PLA Nanofiber Patches 2.jpg",
+        ],
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
+        applications: [
+          "Wound healing",
+          "Tissue engineering",
+          "Implantable medical devices",
+          "Controlled drug delivery",
+          "Biodegradable biomedical patches",
+        ],
+        description: {
+          heading: "Research Overview",
+          image: "/biomedical image/PLA Nanofiber Patches 2.jpg",
+          paragraphs: [
+            "Polylactic acid (PLA) nanofiber patches were developed for biomedical applications in collaboration with Meril Life Science. These biodegradable nanofiber membranes offer excellent biocompatibility, controlled drug delivery potential, and enhanced tissue integration. The patches are suitable for wound healing, tissue engineering, and implantable medical applications.",
+          ],
+        },
+        specifications: {
+          heading: "Membrane Specifications",
+          groups: [],
+          formats: [],
+        },
+      },
+      {
+        id: "oral-thin-nanofiber-film",
+        title: "Oral Thin Nanofiber Film for Drug Delivery – ZIM Labs",
+        subtitle: "Research Work Carried Out at Our Innovation Centre",
+        images: [
+          "/biomedical image/Oral Thin Nanofiber 1.jpg",
+          "/biomedical image/Oral Thin Nanofiber 2.png",
+        ],
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
+        applications: [
+          "Rapid oral drug delivery",
+          "Fast dissolution pharmaceutical formulations",
+          "Improved drug bioavailability",
+          "Enhanced patient compliance",
+          "Convenient pharmaceutical administration",
+        ],
+        description: {
+          heading: "Research Overview",
+          image: "/biomedical image/Oral Thin Nanofiber 2.png",
+          paragraphs: [
+            "Research was performed on oral thin nanofiber films designed for rapid drug delivery in collaboration with ZIM Labs. The nanofiber structure allows fast dissolution and efficient drug release in the oral cavity. This technology improves bioavailability, patient compliance, and convenient administration of pharmaceutical formulations.",
+          ],
+        },
+        specifications: {
+          heading: "Membrane Specifications",
+          groups: [],
+          formats: [],
+        },
+      },
+      {
+        id: "nanofiber-yarn-sutures",
+        title: "Nanofiber Membrane for Yarn Sutures",
+        subtitle: "Research Work Carried Out at Our Innovation Centre",
+        images: [
+          "/biomedical image/Nanofiber Membrane for Yarn Sutures 1.png",
+        ],
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
+        applications: [
+          "Medical yarn suture enhancement",
+          "Controlled drug release in wound closure",
+          "Infection risk reduction",
+          "Improved wound healing",
+          "Biocompatible surgical sutures",
+        ],
+        description: {
+          heading: "Research Overview",
+          image: "/biomedical image/Nanofiber Membrane for Yarn Sutures 1.png",
+          paragraphs: [
+            "Nanofiber membranes were developed to enhance the performance of medical yarn sutures. The nanofiber coating improves biocompatibility, surface functionality, and controlled drug release properties. This innovation supports better wound healing, reduces infection risk, and enhances the overall effectiveness of surgical sutures.",
+          ],
+        },
+        specifications: {
+          heading: "Membrane Specifications",
+          groups: [],
+          formats: [],
+        },
+      },
+      {
+        id: "swasa-n95-mask-filtration",
+        title: "Nanofiber Membrane for Swasa N95 Mask Filtration",
+        subtitle: "Research Work Carried Out at Our Innovation Centre",
+        images: [
+          "/biomedical image/Swasa N95 Mask Filtration 1.png",
+        ],
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
+        applications: [
+          "N95 respiratory mask filtration",
+          "Ultrafine particle capture",
+          "Airborne pathogen filtration",
+          "Pollutant removal",
+          "High-performance respiratory protection",
+        ],
+        description: {
+          heading: "Research Overview",
+          image: "/biomedical image/Swasa N95 Mask Filtration 1.png",
+          paragraphs: [
+            "E-Spin Nanotech developed advanced nanofiber membranes to improve the filtration efficiency of Swasa N95 masks. The nanofiber layer captures ultrafine particles, airborne pathogens, and pollutants while maintaining breathability. This research supports high-performance respiratory protection for healthcare professionals and public health safety.",
+          ],
+        },
+        specifications: {
+          heading: "Membrane Specifications",
+          groups: [],
+          formats: [],
+        },
+      },
+      {
+        id: "peptide-polymer-cell-sorting",
+        title: "Peptide-Polymer Electrospun Nanofibers for Cell Sorting – IIT Kanpur",
+        subtitle: "Research Work Carried Out at Our Innovation Centre",
+        images: [
+          "/biomedical image/Peptide-Polymer Electrospun 2.jpg",
+        ],
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
+        applications: [
+          "Cell sorting and diagnostics",
+          "Targeted drug delivery",
+          "Precision medicine",
+          "Improved therapeutic outcomes",
+          "Biomedical diagnostics",
+        ],
+        description: {
+          heading: "Research Overview",
+          image: "/biomedical image/Peptide-Polymer Electrospun 2.jpg",
+          paragraphs: [
+            "Advancements in peptide-polymer electrospun nanofibers have significantly enhanced cell sorting, diagnostics, and targeted delivery, providing innovative solutions for precision medicine and improved therapeutic outcomes. This research was carried out in collaboration with IIT Kanpur.",
+          ],
+        },
+        specifications: {
+          heading: "Membrane Specifications",
+          groups: [],
+          formats: [],
+        },
+      },
+      {
+        id: "water-filtration-nanofiber",
+        title: "Nanofiber Membrane for Water Filtration – Prof. Ranil Wickramasinghe (USA)",
+        subtitle: "Research Work Carried Out at Our Innovation Centre",
+        images: [
+          "/biomedical image/Nanofiber Membrane for Water Filtration 1.jpg",
+          "/biomedical image/Nanofiber Membrane for Water Filtration 2.jpg",
+        ],
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
+        applications: [
+          "Advanced water filtration",
+          "Contaminant removal",
+          "High permeability water purification",
+          "Industrial water treatment",
+          "Environmental water purification",
+        ],
+        description: {
+          heading: "Research Overview",
+          image: "/biomedical image/Nanofiber Membrane for Water Filtration 2.jpg",
+          paragraphs: [
+            "Nanofiber membranes were developed for advanced water filtration applications in collaboration with Prof. Ranil Wickramasinghe, USA. The membranes provide high surface area, excellent permeability, and efficient removal of contaminants. This research supports sustainable water purification technologies for industrial and environmental applications.",
+          ],
+        },
+        specifications: {
+          heading: "Membrane Specifications",
+          groups: [],
+          formats: [],
+        },
+      },
     ],
   },
 };
