@@ -6,7 +6,7 @@ import { ScienceSection } from "@/components/ScienceSection";
 import ProfileCard from "@/components/ProfileCard";
 import { BackgroundBoxesDemo } from "@/components/BackgroundBoxesDemo";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo"
-
+import { ImageSliderSection } from "@/components/ImageSliderSection";
 import { ServiceImageCard } from "@/components/ServiceImageCard";
 
 
@@ -19,6 +19,7 @@ export default function Home() {
       <ServiceImageCard />
       <StatsSection />
       <ExpertiseSection />
+      <ImageSliderSection />
       <ScienceSection />
       <InfiniteMovingCardsDemo />
     </main>
