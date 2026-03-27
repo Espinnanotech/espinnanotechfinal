@@ -27,10 +27,10 @@ export function Footer() {
               <MapPin size={16} /> Kanpur, Uttar Pradesh, India
             </p>
             <p className="flex items-center gap-2">
-              <Mail size={16} /> contact@espinnanotech.com
+              <Mail size={16} /> info@espinnanotech.com
             </p>
             <p className="flex items-center gap-2">
-              <Phone size={16} /> +91 98765 43210
+              <Phone size={16} /> +91 6307666465, 9696141868
             </p>
           </div>
         </div>
@@ -51,7 +51,7 @@ export function Footer() {
               <a href="/products" className="hover:text-white transition">Products</a>
             </li>
             <li>
-              <a href="/research" className="hover:text-white transition">Research</a>
+              <a href="/publications" className="hover:text-white transition">Publications</a>
             </li>
             <li>
               <a href="/contact" className="hover:text-white transition">Contact</a>

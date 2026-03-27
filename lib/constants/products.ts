@@ -62,7 +62,7 @@ export const SUBCATEGORIES = {
     },
     {
       id: "bmwfilter",
-      title: "BMW Filter",
+      title: "Car Filter",
       description: "Premium automotive cabin and engine air filters using advanced nanofiber technology for enhanced particle capture and extended filter life in BMW vehicles.",
       image: "/functional p image/BMW Cabin Air Filter 1.jpg",
       features: ["Automotive Grade", "High Dust Holding", "OEM Compatible"]
