@@ -56,7 +56,7 @@ export const SUBCATEGORIES = {
     {
       id: "airpurifier",
       title: "Room Air Purifier",
-      description: "Our nanofiber-based room air purifiers deliver superior air filtration by capturing ultrafine particles, allergens, bacteria, and pollutants. The advanced nanofiber membrane provides high filtration efficiency with low airflow resistance, ensuring clean and healthy indoor air. Ideal for homes, offices, and healthcare environments requiring reliable air purification.",
+      description: "Our nanofiber-based room air purifiers deliver superior air filtration by capturing ultrafine particles, allergens, bacteria, and pollutants.",
       image: "/functional p image/Room Air Purifier 1.jpg",
       features: ["HEPA Grade Filtration", "Low Pressure Drop", "Long Service Life"]
     },

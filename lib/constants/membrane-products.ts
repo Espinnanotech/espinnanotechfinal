@@ -837,6 +837,200 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
       },
     ],
   },
+
+  airpurifier: {
+    id: "airpurifier",
+    pageTitle: "Room Air Purifier",
+    items: [
+      {
+        id: "room-air-purifier",
+        title: "Room Air Purifier",
+        subtitle: "Nanofiber Functional Product",
+        images: [
+          "/functional p image/Room Air Purifier 1.jpg",
+          "/functional p image/Room Air Purifier 2.jpg",
+          "/functional p image/Room Air Purifier 3.jpg",
+        ],
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
+        applications: [
+          "Home air purification",
+          "Office environments",
+          "Healthcare facility air quality",
+          "Allergen and bacteria removal",
+          "Ultrafine particle capture",
+        ],
+        description: {
+          heading: "Product Description",
+          image: "/functional p image/BMW Cabin Air Filter 1.jpg",
+          paragraphs: [
+            "Our nanofiber-based room air purifiers deliver superior air filtration by capturing ultrafine particles, allergens, bacteria, and pollutants. The advanced nanofiber membrane provides high filtration efficiency with low airflow resistance, ensuring clean and healthy indoor air.",
+            "Ideal for homes, offices, and healthcare environments requiring reliable air purification. The nanofiber membrane technology enables exceptional particle capture performance while maintaining low pressure drop, resulting in energy-efficient and long-lasting air purification systems.",
+          ],
+        },
+        specifications: {
+          heading: "Product Specifications",
+          groups: [],
+          formats: [],
+        },
+      },
+    ],
+  },
+
+  bmwfilter: {
+    id: "bmwfilter",
+    pageTitle: "BMW Cabin Air Filter",
+    items: [
+      {
+        id: "bmw-cabin-air-filter",
+        title: "BMW Cabin Air Filter",
+        subtitle: "Nanofiber Functional Product",
+        images: [
+          "/functional p image/BMW Cabin Air Filter 1.jpg",
+          "/functional p image/BMW Cabin Air Filter 2.png",
+        ],
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
+        applications: [
+          "BMW vehicle cabin air filtration",
+          "Dust and pollen protection",
+          "Fine particulate filtration",
+          "Harmful pollutant removal",
+          "In-cabin air quality improvement",
+        ],
+        description: {
+          heading: "Product Description",
+          image: "/functional p image/BMW Cabin Air Filter 1.jpg",
+          paragraphs: [
+            "Nanofiber cabin air filters designed for BMW vehicles provide enhanced protection against dust, pollen, fine particulates, and harmful pollutants. The ultrafine nanofiber layer ensures high filtration efficiency while maintaining optimal airflow for passenger comfort.",
+            "It improves in-cabin air quality, creating a cleaner and healthier driving environment. The advanced nanofiber membrane technology delivers superior filtration performance compared to conventional cabin filters, capturing particles that standard filters miss.",
+          ],
+        },
+        specifications: {
+          heading: "Product Specifications",
+          groups: [],
+          formats: [],
+        },
+      },
+    ],
+  },
+
+  dustcollector: {
+    id: "dustcollector",
+    pageTitle: "Filters for Dust Collector",
+    items: [
+      {
+        id: "dust-collector-filter",
+        title: "Filters for Dust Collector",
+        subtitle: "Nanofiber Functional Product",
+        images: [
+          "/functional p image/Filters for Dust Collector 1.png",
+        ],
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
+        applications: [
+          "Industrial dust management systems",
+          "Manufacturing environments",
+          "Woodworking facilities",
+          "Heavy industry applications",
+          "Fine particle capture in industrial settings",
+        ],
+        description: {
+          heading: "Product Description",
+          image: "/functional p image/Filters for Dust Collector 1.png",
+          paragraphs: [
+            "Nanofiber dust collector filters offer exceptional particle capture efficiency for industrial dust management systems. The nanofiber layer traps fine dust particles on the surface, improving filtration performance and extending filter life.",
+            "These filters reduce pressure drop, improve system efficiency, and help maintain cleaner industrial working environments. The surface filtration mechanism of nanofiber technology makes cleaning easier and extends the operational lifespan of dust collection systems significantly.",
+          ],
+        },
+        specifications: {
+          heading: "Product Specifications",
+          groups: [],
+          formats: [],
+        },
+      },
+    ],
+  },
+
+  cleanroomairfilter: {
+    id: "cleanroomairfilter",
+    pageTitle: "Clean Room Air Filter",
+    items: [
+      {
+        id: "clean-room-air-filter",
+        title: "Clean Room Air Filter",
+        subtitle: "Nanofiber Functional Product",
+        images: [
+          "/functional p image/Clean Room Air Filter 1.png",
+          
+        ],
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
+        applications: [
+          "Pharmaceutical facilities",
+          "Electronics manufacturing cleanrooms",
+          "Biotechnology laboratories",
+          "Semiconductor processing environments",
+          "Ultra-high purity air requirements",
+        ],
+        description: {
+          heading: "Product Description",
+          image: "/functional p image/Clean Room Air Filter 1.png",
+          paragraphs: [
+            "Our nanofiber clean room air filters are engineered for critical environments requiring ultra-high air purity. The advanced nanofiber structure effectively captures submicron particles, ensuring compliance with stringent cleanroom standards.",
+            "Suitable for pharmaceutical, electronics, and biotechnology facilities where contamination control is essential. These filters meet the most demanding ISO cleanroom classifications, providing reliable protection against particle contamination that could compromise sensitive processes and products.",
+          ],
+        },
+        specifications: {
+          heading: "Product Specifications",
+          groups: [],
+          formats: [],
+        },
+      },
+    ],
+  },
+
+  hvac: {
+    id: "hvac",
+    pageTitle: "HVAC Filters",
+    items: [
+      {
+        id: "hvac-filter",
+        title: "HVAC Filters",
+        subtitle: "Nanofiber Functional Product",
+        images: [
+          "/functional p image/HVAC Filters 1.jpg",
+        ],
+        pricing: [],
+        highlights: [],
+        deliveryTime: "",
+        applications: [
+          "Commercial HVAC systems",
+          "Residential heating and cooling",
+          "Ventilation air quality control",
+          "Dust and pollen filtration",
+          "Energy-efficient air conditioning",
+        ],
+        description: {
+          heading: "Product Description",
+          image: "/functional p image/HVAC Filters 1.jpg",
+          paragraphs: [
+            "Nanofiber HVAC filters provide high-efficiency air filtration for heating, ventilation, and air conditioning systems. The nanofiber technology captures fine particles such as dust, pollen, and pollutants while maintaining excellent airflow.",
+            "These filters enhance indoor air quality, improve energy efficiency, and extend the service life of HVAC systems. By reducing particle load on the system, nanofiber HVAC filters help maintain optimal system performance and lower energy consumption over the long term.",
+          ],
+        },
+        specifications: {
+          heading: "Product Specifications",
+          groups: [],
+          formats: [],
+        },
+      },
+    ],
+  },
 };
 
 export interface MembraneProductPage {
