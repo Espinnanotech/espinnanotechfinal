@@ -19,7 +19,7 @@ export function ProductSpecifications({
 }: ProductSpecificationsProps) {
 
   // ✅ fallback image (very important)
-  const imageSrc = productImage || "/fallback.jpg";
+  const imageSrc = productImage || "/fallback.png";
 
   return (
     <div className="w-full px-6 lg:px-12">
