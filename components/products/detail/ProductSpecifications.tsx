@@ -29,7 +29,7 @@ export function ProductSpecifications({ specifications }: ProductSpecificationsP
               <div
                 key={spec.label}
                 className={`grid grid-cols-[8fr,40px,10fr] border-b border-gray-200 last:border-b-0 ${
-                  index % 2 === 0 ? 'bg-white' : 'bg-gray-50'
+                  index % 2 === 0 ? 'bg-white' : 'bg-gray-200'
                 }`}
               >
                 <div className="p-4 text-gray-700 font-normal">{spec.label}</div>

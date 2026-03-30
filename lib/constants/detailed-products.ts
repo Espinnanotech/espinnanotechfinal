@@ -555,22 +555,14 @@ export const DETAILED_PRODUCTS = {
         {
           category: "Spinning Arrangement",
           items: [
-            { label: "Vertical spinning", value: "Yes" },
-            { label: "Horizontal spinning", value: "Yes" },
-            { label: "Co-Spinning", value: "Yes" },
-            { label: "Co-axial Spinning", value: "Yes" },
-            { label: "Adjacent distance between spinneret and collector:", value: "Up to 250 mm" },
-            { label: "Temperature and Humidity display", value: "Yes" },
-            { label: "High Speed exhaust blower for protection from hazardous solvent fume", value: "Yes" },
-            { label: "UV Light", value: "10 watts (Sterilization)" },
+            { label: "Spinning Arrangment", value: "Horizontal & Vertical Setup" },
+            { label: "Spinning Setup", value: "Co-Spinning & Co-axial Spinning" },
           ],
         },
         {
           category: "Infusion",
           items: [
             { label: "Syringe Pump Single Channel", value: "Qty.2" },
-            { label: "Infusion function", value: "Yes" },
-            { label: "Volume, Time and Flow control", value: "Yes" },
             { label: "Acceptable syringe volume", value: "5 µl-20 ml" },
             { label: "Flow rate", value: "1 µl/min-3 ml/min (±0.05%)" },
           ],
@@ -578,8 +570,8 @@ export const DETAILED_PRODUCTS = {
         {
           category: "Spinneret",
           items: [
-            { label: "Single Nozzle", value: "Yes" },
-            { label: "Co-axial Nozzle:", value: "Core 21 G, shell 16 G" },
+            { label: "Nozzle", value: "Single Nozzle & Co-axial Nozzle" },
+            { label: "Co-axial Nozzle:", value: "Shell 16 G, Core 21 to 32 G (changeable)" },
           ],
         },
         {
@@ -588,9 +580,6 @@ export const DETAILED_PRODUCTS = {
             { label: "Output voltage", value: "0 to 30 KV ± 0.05%" },
             { label: "Voltage adjustment", value: "0.1 KV" },
             { label: "Output current", value: "0 to 400 µA" },
-            { label: "Digital voltage and current monitoring display", value: "Yes" },
-            { label: "Overload trip- unit shuts down if current exceeds 20% of the maximum output current", value: "Yes" },
-            { label: "Auto cut high voltage protection when door is opened", value: "Yes" },
           ],
         },
         {
@@ -651,10 +640,10 @@ export const DETAILED_PRODUCTS = {
         {
           category: "Spinning Arrangement",
           items: [
-            { label: "Horizontal spinning", value: "Yes" },
+            { label: "Spinning Adjustment", value: "Horizontal Set-up" },
             { label: "Adjacent distance between spinneret and collector", value: "Up to 250 mm" },
-            { label: "Temperature and Humidity display", value: "Yes" },
-            { label: "High Speed exhaust blower for protection from hazardous solvent fume", value: "Yes" },
+            { label: "Chamber Environment", value: "Temperature and Humidity display" },
+            { label: "Exhaust", value: "High Speed exhaust blower for protection from hazardous solvent fume" },
             { label: "UV Light :", value: "10 watts (Sterilization)" },
           ],
         },
@@ -662,8 +651,7 @@ export const DETAILED_PRODUCTS = {
           category: "Infusion",
           items: [
             { label: "Syringe Pump Single Channel :", value: "Qty. 1 " },
-            { label: "Infusion function", value: "Yes" },
-            { label: "Volume, Time and Flow control", value: "Yes" },
+            { label: "Intutive function", value: "Volume, Time and Flow control" },
             { label: "Acceptable syringe volume :", value: "5 µl-20ml" },
             { label: "Flow rate:", value: "1 µl/min-3 ml/min (±0.05%)" },
           ],
@@ -674,9 +662,9 @@ export const DETAILED_PRODUCTS = {
             { label: "Output voltage :", value: "0 to 30 KV ± 0.05%" },
             { label: "Voltage adjustment :", value: "0.1 KV" },
             { label: "Output current :", value: "0 to 400 µA" },
-            { label: "Digital voltage and current monitoring display", value: "Yes" },
-            { label: "Overload trip- unit shut down if current exceeds 20% of the maximum output current", value: "Yes" },
-            { label: "Auto cut high voltage protection when door is opened.", value: "Yes" },
+            { label: "Voltage Display", value: "Digital voltage and current monitoring display" },
+            { label: "Overload trip", value: "Unit shut down if current exceeds 20% of the maximum output current" },
+            { label: "Auto High Voltage cut-off", value: "Auto cut high voltage protection when door is opened" },
           ],
         },
         {
