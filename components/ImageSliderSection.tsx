@@ -66,7 +66,7 @@ export function ImageSliderSection() {
                 className="object-contain"
                 priority
               />
-              <div className="absolute inset-0 bg-black/20" />
+              <div className="absolute inset-0 bg-black/10" />
             </motion.div>
           </AnimatePresence>
 
@@ -75,7 +75,7 @@ export function ImageSliderSection() {
               <button
                 key={i}
                 onClick={() => setCurrent(i)}
-                className={`h-2 rounded-full transition-all duration-600 ${
+                className={`h-2 rounded-full transition-all duration-800 ${
                   i === current ? "bg-white w-6" : "bg-white/50 w-2"
                 }`}
                 aria-label={`Go to slide ${i + 1}`}
