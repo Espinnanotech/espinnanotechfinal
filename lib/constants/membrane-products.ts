@@ -38,7 +38,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
               color: "blue",
               items: [
                 { label: "Pure PVDF", checked: true },
-                { label: "PVDF blended with other polymers, drugs, nanoparticles etc.", checked: true },
+                { label: "PVDF blended with other polymers Nanoparticles etc.", checked: true },
               ],
             },
             {
@@ -72,8 +72,9 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
         title: "Polysulfone Nanofiber Membrane",
         subtitle: "Electrospun Polysulfone Nanofiber Membrane",
         images: [
-          "/product categories/Polysulfone Nanofiber Membrane 1.jpg",
           "/product categories/Polysulfone Nanofiber Membrane 2.jpg",
+          "/product categories/Polysulfone Nanofiber Membrane 1.jpg",
+          
         ],
         pricing: [],
         highlights: [],
@@ -173,7 +174,7 @@ export const MEMBRANE_PRODUCTS: Record<string, MembraneProductPage> = {
               color: "amber",
               items: [
                 { label: "Free-standing nanofiber membrane", checked: true },
-                { label: "Supported on substrates (e.g., aluminium foil, non-woven PP fabric, etc.)", checked: true },
+                { label: "Supported on substrates (e.g., aluminium foil (For small Sample), non-woven PP fabric, etc.)", checked: true },
               ],
             },
             {

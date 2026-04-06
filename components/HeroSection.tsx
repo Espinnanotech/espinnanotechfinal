@@ -6,7 +6,6 @@ import { Cover } from "@/components/ui/cover";
 
 const VIDEOS = [
   "/videos/landing video sample2.mov",
-  "/videos/download.mp4",
 ];
 
 // Updated to remove reliance on empty `number` field
