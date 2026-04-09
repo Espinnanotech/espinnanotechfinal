@@ -25,12 +25,6 @@ export function HeroSection() {
 }
 
 
-
-
-
-
-
-
 // import { useState, useRef, useEffect } from "react";
 // import { ServiceCard } from "./ServiceCard";
 // import { Cover } from "@/components/ui/cover";
