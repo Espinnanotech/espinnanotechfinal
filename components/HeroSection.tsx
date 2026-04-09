@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 import { ServiceCard } from "./ServiceCard";
 import { Cover } from "@/components/ui/cover";
 
@@ -8,44 +8,75 @@ const VIDEOS = [
   "/videos/final landingvideo.mp4",
 ];
 
-// Updated to remove reliance on empty `number` field
-// const SERVICES = [
-//   { number: "", title: "Nanofiber Spinning\nTechnology", link: "/products/electrospinning" },
-//   { number: "", title: "Nanofiber Membrane\nTechnology", link: "/products/nanofibermembrane" },
-//   { number: "", title: "Nanofiber Functional\nProducts", link: "/products/nanofibrefunctionalproducts" },
-// ] as const;
-
-// const FLASH_POPUPS = [
-//   { text: "Spinning Hollow Fiber", top: "15%", left: "60%", delay: 900 },
-//   { text: "Electrospinning", top: "70%", left: "20%", delay: 1200 },
-//   { text: "Nanofiber Membrane", top: "30%", left: "10%", delay: 1500 },
-//   { text: "Advanced Filtration", top: "55%", left: "65%", delay: 1800 },
-//   { text: "Polymer Solutions", top: "80%", left: "45%", delay: 2100 },
-//   { text: "Hollow Fiber Technology", top: "20%", left: "35%", delay: 2400 },
-// ];
-
 export function HeroSection() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const handleEnded = () => {
-    setCurrentIndex((prev) => (prev + 1) % VIDEOS.length);
-  };
-
   return (
-    <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden">
+    <section className="relative min-h-[80vh] px-4 md:px-6 py-4 overflow-hidden">
       <video
-        key={currentIndex}
         autoPlay
         muted
         playsInline
-        onEnded={handleEnded}
+        loop  // ✅ This fixes the pause issue
         className="absolute inset-0 w-full h-full object-fill z-0"
       >
-        <source src={VIDEOS[currentIndex]} type="video/mp4" />
+        <source src={VIDEOS[0]} type="video/mp4" />
       </video>
     </section>
   );
 }
+
+
+
+
+
+
+
+
+// import { useState, useRef, useEffect } from "react";
+// import { ServiceCard } from "./ServiceCard";
+// import { Cover } from "@/components/ui/cover";
+
+// const VIDEOS = [
+//   "/videos/final landingvideo.mp4",
+// ];
+
+// // Updated to remove reliance on empty `number` field
+// // const SERVICES = [
+// //   { number: "", title: "Nanofiber Spinning\nTechnology", link: "/products/electrospinning" },
+// //   { number: "", title: "Nanofiber Membrane\nTechnology", link: "/products/nanofibermembrane" },
+// //   { number: "", title: "Nanofiber Functional\nProducts", link: "/products/nanofibrefunctionalproducts" },
+// // ] as const;
+
+// // const FLASH_POPUPS = [
+// //   { text: "Spinning Hollow Fiber", top: "15%", left: "60%", delay: 900 },
+// //   { text: "Electrospinning", top: "70%", left: "20%", delay: 1200 },
+// //   { text: "Nanofiber Membrane", top: "30%", left: "10%", delay: 1500 },
+// //   { text: "Advanced Filtration", top: "55%", left: "65%", delay: 1800 },
+// //   { text: "Polymer Solutions", top: "80%", left: "45%", delay: 2100 },
+// //   { text: "Hollow Fiber Technology", top: "20%", left: "35%", delay: 2400 },
+// // ];
+
+// export function HeroSection() {
+//   const [currentIndex, setCurrentIndex] = useState(0);
+
+//   const handleEnded = () => {
+//     setCurrentIndex((prev) => (prev + 1) % VIDEOS.length);
+//   };
+
+//   return (
+//     <section className="relative min-h-[65vh] px-4 md:px-6 py-4 overflow-hidden">
+//       <video
+//         key={currentIndex}
+//         autoPlay
+//         muted
+//         playsInline
+//         onEnded={handleEnded}
+//         className="absolute inset-0 w-full h-full object-fill z-0"
+//       >
+//         <source src={VIDEOS[currentIndex]} type="video/mp4" />
+//       </video>
+//     </section>
+//   );
+// }
 
 
 
